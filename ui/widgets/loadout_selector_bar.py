@@ -55,14 +55,30 @@ class LoadoutSelectorBar(QWidget):
 
     def refresh_names(self, names: list[str], selected_name: str = "") -> None:
         """Replace the dropdown contents while preserving selection when possible."""
+
         self._dropdown.blockSignals(True)
+
         previous_name = selected_name or self._dropdown.currentText()
+
         self._dropdown.clear()
-        self._dropdown.addItem("-- select --")
+
+        # Only show the placeholder when there are no real loadouts.
+        if not names:
+            self._dropdown.addItem("-- select --")
+            self._dropdown.setCurrentIndex(0)
+            self._dropdown.blockSignals(False)
+            return
+
         for name in names:
             self._dropdown.addItem(name)
+
         index = self._dropdown.findText(previous_name)
-        self._dropdown.setCurrentIndex(max(index, 0))
+
+        # If the previous selection no longer exists, fall back to the first real loadout.
+        if index < 0:
+            index = 0
+
+        self._dropdown.setCurrentIndex(index)
         self._dropdown.blockSignals(False)
 
     def current_name(self) -> str:
@@ -71,3 +87,6 @@ class LoadoutSelectorBar(QWidget):
     def set_current_name(self, name: str) -> None:
         index = self._dropdown.findText(name)
         self._dropdown.setCurrentIndex(max(index, 0))
+
+    def current_index(self) -> int:
+        return self._dropdown.currentIndex()

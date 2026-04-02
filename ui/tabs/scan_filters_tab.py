@@ -225,8 +225,8 @@ class ScanFiltersTab(QWidget):
     def set_add_slot_button_visible(self, visible: bool) -> None:
         self._slot_bar.set_add_slot_button_visible(visible)
 
-    def _refresh_loadout_dropdown(self) -> None:
-        self._loadout_selector.refresh_names(sorted(self._loadouts.keys()))
+    def _refresh_loadout_dropdown(self, selected_name: str = "") -> None:
+        self._loadout_selector.refresh_names(sorted(self._loadouts.keys()), selected_name)
 
     def get_current_loadout_name(self) -> str:
         name = self._loadout_selector.current_name()
@@ -265,6 +265,7 @@ class ScanFiltersTab(QWidget):
         name, accepted = QInputDialog.getText(self, "New Loadout", "Loadout name:")
         if not accepted or not name.strip():
             return
+
         name = name.strip()
         if name in self._loadouts:
             QMessageBox.information(
@@ -276,16 +277,16 @@ class ScanFiltersTab(QWidget):
 
         self._loadouts[name] = {}
         save_all_loadouts(self._loadouts)
-        self._refresh_loadout_dropdown()
-        self._loadout_selector.set_current_name(name)
-        self._slot_bar.rebuild("", [])
-        self.get_active_mod_panel().clear_all()
-        self.loadout_selection_changed.emit()
+
+        self._refresh_loadout_dropdown(selected_name=name)
+        self._current_slot_name = ""
+        self._on_loadout_dropdown_changed(self._loadout_selector.current_index())
 
     def _on_delete_loadout_clicked(self) -> None:
         name = self.get_current_loadout_name()
         if not name:
             return
+
         reply = QMessageBox.question(
             self,
             "Delete Loadout",
@@ -297,18 +298,10 @@ class ScanFiltersTab(QWidget):
 
         del self._loadouts[name]
         save_all_loadouts(self._loadouts)
-        self._refresh_loadout_dropdown()
-        self.get_active_mod_panel().clear_all()
-        self._slot_bar.rebuild("", [])
+
         self._current_slot_name = ""
-        self.set_search_enabled(False)
-        try:
-            self._item_base_panel.set_slot("")
-            self.get_active_mod_panel().set_slot("")
-            self._item_property_panel.set_slot("")
-        except AttributeError:
-            pass
-        self.loadout_selection_changed.emit()
+        self._refresh_loadout_dropdown()
+        self._on_loadout_dropdown_changed(self._loadout_selector.current_index())
 
     def _on_loadout_dropdown_changed(self, _index: int) -> None:
         name = self.get_current_loadout_name()

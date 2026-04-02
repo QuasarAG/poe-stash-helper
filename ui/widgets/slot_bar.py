@@ -86,6 +86,7 @@ class SlotBar(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
         self._slot_button_widgets: dict[str, QWidget] = {}
+        self._add_slot_button_should_be_visible: bool = False
         self._build()
 
     def _build(self) -> None:
@@ -103,7 +104,7 @@ class SlotBar(QWidget):
             " border-radius:3px; padding:3px 10px; font-size:10px; font-weight:bold;"
         )
         self._add_slot_button.clicked.connect(self.add_slot_requested.emit)
-        self._add_slot_button.setVisible(False)
+        self._add_slot_button.setVisible(self._add_slot_button_should_be_visible)
 
         initial_row = QHBoxLayout()
         initial_row.setSpacing(4)
@@ -113,6 +114,7 @@ class SlotBar(QWidget):
         self._layout.addLayout(initial_row)
 
     def set_add_slot_button_visible(self, visible: bool) -> None:
+        self._add_slot_button_should_be_visible = visible
         self._add_slot_button.setVisible(visible)
 
     def rebuild(self, active_slot: str, slot_names: list[str]) -> None:
@@ -142,7 +144,7 @@ class SlotBar(QWidget):
         flow_widget = _SlotFlowWidget(all_flow_widgets, spacing=4)
         self._layout.addWidget(flow_widget)
         self._layout.addStretch()
-        self._add_slot_button.show()
+        self._add_slot_button.setVisible(self._add_slot_button_should_be_visible)
 
     def set_active_slot(self, active_slot: str) -> None:
         """Update button styles so only one slot looks active."""
