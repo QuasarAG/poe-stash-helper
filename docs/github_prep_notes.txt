@@ -1,0 +1,49 @@
+PoE Stash Helper - GitHub preparation notes
+==========================================
+
+This source tree is prepared to be uploaded to GitHub as a clean first repository.
+
+What was cleaned before export
+-----------------------------
+- data/config.json was reset to a safe template
+- data/loadouts.json was reset to an empty object
+- personal OAuth tokens were removed
+- runtime cache content was not included
+- __pycache__ folders were removed
+
+Files intentionally ignored by .gitignore
+-----------------------------------------
+- data/config.json
+- data/loadouts.json
+- data/base_types.json
+- data/mod_data.py
+- cache/
+- .cache/
+- .token_cache.json
+- __pycache__/
+
+Why data/config.json and data/loadouts.json are ignored
+-------------------------------------------------------
+These files are local runtime state, not stable source code.
+They should stay on your own machine and should not be pushed to GitHub.
+
+Why generated database files are ignored
+----------------------------------------
+These files are rebuilt from maintained data sources through:
+- Update from RePoE.bat
+- python tools/update_all.py
+
+Recommended first Git commit flow
+---------------------------------
+1. git init
+2. git add .
+3. git status
+4. confirm that personal files are not staged
+5. git commit -m "Initial commit"
+6. create the GitHub repository
+7. add the remote
+8. git push -u origin main
+
+Windows line-ending note
+------------------------
+.gitattributes is included so batch files keep Windows-friendly line endings while Python files and docs stay consistent.

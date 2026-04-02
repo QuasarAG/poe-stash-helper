@@ -1,0 +1,44 @@
+# Python bytecode — auto-generated, never commit
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated databases — rebuilt by "Update from RePoE.bat"
+data/base_types.json
+data/mod_data.py
+
+# Download caches — rebuilt on demand
+.cache/
+cache/
+
+# OAuth token — contains personal credentials
+.token_cache.json
+
+# Editor / OS junk
+.vscode/
+*.bak
+Thumbs.db
+.DS_Store
+
+# Personal runtime state — keep local, do not push to GitHub
+data/config.json
+data/loadouts.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / coverage output
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Qt / IDE extras
+.idea/

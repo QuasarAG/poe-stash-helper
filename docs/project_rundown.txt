@@ -1,0 +1,419 @@
+PoE Stash Helper — project rundown
+===================================
+
+This text file explains, in plain language, what each folder and file is for.
+It is meant for a beginner maintainer who wants a quick map of the project.
+
+[File] .gitignore
+  Tells Git to ignore generated files such as caches, bytecode folders, and local token files.
+
+[File] Inspect RePoE Cache.bat
+  Windows helper that inspects the local RePoE cache used by rebuild tools.
+
+[File] Launch PoE Stash Helper.bat
+  Windows launcher for the desktop app with bytecode-cache creation disabled.
+
+[File] README.md
+  Main human-readable project introduction and setup guide.
+
+[File] Update from RePoE.bat
+  Windows launcher for rebuilding generated Path of Exile data from maintained public sources.
+
+[Folder] api/
+  HTTP-facing layer for official Path of Exile web requests. Keeps raw network code out of UI and business logic.
+
+[File] api/__init__.py
+  Package export for retrieving the shared API manager.
+
+[Folder] api/cache/
+  Small API-specific caches used to avoid unnecessary repeated requests.
+
+[File] api/cache/__init__.py
+  Marks the API cache folder as a Python package.
+
+[File] api/cache/stash_response_cache.py
+  Saves and restores cached stash responses and ETags.
+
+[Folder] api/clients/
+  Thin request clients. Each file focuses on one external HTTP area.
+
+[File] api/clients/__init__.py
+  Package marker for API clients.
+
+[File] api/clients/oauth_client.py
+  Official OAuth 2.1 Authorization Code + PKCE desktop client for Path of Exile.
+
+[File] api/clients/stash_client.py
+  Thin official stash-endpoint client.
+
+[File] api/clients/stats_client.py
+  Thin official trade-stats endpoint client plus disk-cache handling.
+
+[File] api/manager.py
+  Creates and owns the shared API clients used by the app.
+
+[Folder] api/policies/
+  Shared request rules such as headers, rate limiting, and friendly error parsing.
+
+[File] api/policies/__init__.py
+  Package marker for shared request-policy helpers.
+
+[File] api/policies/error_policy.py
+  Friendly API error parsing and Retry-After handling.
+
+[File] api/policies/rate_limiter.py
+  Conservative request pacing and response-header based throttling.
+
+[File] api/policies/request_policy.py
+  Shared request header builder, including User-Agent and Authorization headers.
+
+[File] config.py
+  Central configuration values such as API settings, OAuth settings, and default UI behaviour.
+
+[Folder] controllers/
+  Qt application orchestration. Connects views, workers, services, and overlay behaviour.
+
+[File] controllers/__init__.py
+  Package marker for controllers.
+
+[File] controllers/app_controller.py
+  Main application controller. Connects the window, overlay, workers, tray, and hotkeys.
+
+[Folder] data/
+  Generated database files and user-owned saved data.
+
+[File] data/__init__.py
+  Package marker for the data folder.
+
+[File] data/base_types.json
+  Generated base-item database used by the base filter and item parser.
+
+[File] data/config.json
+  User configuration saved between runs.
+
+[File] data/loadouts.json
+  User-created loadouts and filter definitions.
+
+[File] data/mod_data.py
+  Generated modifier database used for mod search and scoring.
+
+[Folder] docs/
+  Plain-language documentation meant for a beginner maintainer.
+
+[Folder] logic/
+  Pure project logic: item parsing, filtering, scoring, and related helper rules.
+
+[File] logic/__init__.py
+  Package marker for pure logic modules.
+
+[File] logic/item_filter.py
+  Helpers for matching parsed items against built filters.
+
+[File] logic/item_parser.py
+  Turns raw stash JSON into parsed item objects.
+
+[File] logic/mod_query.py
+  Search and query helpers over generated modifier data.
+
+[File] logic/mod_scorer.py
+  Weighted modifier scoring logic.
+
+[File] logic/tier_utils.py
+  Helpers for modifier tier and value-range display.
+
+[File] logic/unified_filter.py
+  Applies slot-aware active mod and property filters to parsed items.
+
+[File] logic/window_finder.py
+  Detects and tracks the Path of Exile window for overlay behaviour.
+
+[File] main.py
+  Thin application entry point that creates the Qt app and starts the controller.
+
+[Folder] models/
+  Small dataclasses that give important app data a clear shape.
+
+[File] models/__init__.py
+  Package export for the small shared dataclasses.
+
+[File] models/scan_models.py
+  Dataclasses for one scan request and one scan result.
+
+[File] models/stash_models.py
+  Dataclass for one stash-tab summary shown in the UI.
+
+[File] models/trade_stat_models.py
+  Dataclass for one trade-stat entry from the official stats endpoint.
+
+[Folder] repositories/
+  File-backed data access. Reads and writes JSON or generated data for the rest of the app.
+
+[File] repositories/__init__.py
+  Package export for repository helpers.
+
+[File] repositories/base_repository.py
+  Single source of truth for generated base-type data.
+
+[File] repositories/config_repository.py
+  Read and write user config values.
+
+[File] repositories/loadout_repository.py
+  Read and write saved loadouts.
+
+[File] requirements.txt
+  Python dependency list for the project.
+
+[Folder] services/
+  Reusable workflows that sit above repositories and API clients.
+
+[File] services/__init__.py
+  Package export for common service entry points.
+
+[File] services/data_update_service.py
+  Shared rebuild workflow used by both UI and CLI tools.
+
+[File] services/oauth_login_service.py
+  High-level login workflow wrapper around the OAuth client.
+
+[File] services/scan_payload_service.py
+  Builds scan payload data from the current tab state.
+
+[File] services/stash_service.py
+  Higher-level stash workflow and stash-tab normalization helpers.
+
+[File] services/stats_service.py
+  Small service wrapper around the official trade-stats client.
+
+[Folder] tools/
+  Command-line maintenance scripts, mainly for rebuilding generated data.
+
+[File] tools/__init__.py
+  Package marker for command-line tools.
+
+[File] tools/build_base_db.py
+  Builds generated base-type data from RePoE base item data.
+
+[File] tools/build_mod_db.py
+  Builds generated modifier data from PoB / RePoE-style sources.
+
+[Folder] tools/common/
+  Shared helpers used by multiple command-line tools.
+
+[File] tools/common/__init__.py
+  Package marker for shared tool helpers.
+
+[File] tools/common/http_cache.py
+  Shared JSON download and local-cache helper used by rebuild tools.
+
+[File] tools/inspect_cache.py
+  CLI helper for inspecting cached rebuild inputs.
+
+[File] tools/update_all.py
+  CLI entry point for rebuilding base data, mod data, or both.
+
+[Folder] ui/
+  All desktop user-interface code.
+
+[File] ui/__init__.py
+  Package marker for the user-interface layer.
+
+[File] ui/main_window.py
+  Main desktop window that hosts the top-level tabs and scan action bar.
+
+[Folder] ui/overlay/
+  Overlay widgets drawn above the stash window.
+
+[File] ui/overlay/__init__.py
+  Package export for overlay objects and helper functions.
+
+[File] ui/overlay/canvas.py
+  Overlay drawing surface for item outlines and simple overlay elements.
+
+[File] ui/overlay/colors.py
+  Shared overlay colour helpers.
+
+[File] ui/overlay/grid.py
+  Overlay grid model and grid drawing behaviour.
+
+[File] ui/overlay/stash_overlay.py
+  High-level overlay container that coordinates grid, canvas, tooltip, and toolbar.
+
+[File] ui/overlay/toolbar.py
+  Overlay toolbar shown on top of the game window.
+
+[File] ui/overlay/tooltip.py
+  Overlay tooltip logic for hovered item details.
+
+[Folder] ui/panels/
+  Reusable larger UI sections used inside tabs.
+
+[File] ui/panels/__init__.py
+  Package export for reusable larger panels.
+
+[Folder] ui/panels/active_mods/
+  User-interface pieces for active mod groups and their rows.
+
+[File] ui/panels/active_mods/__init__.py
+  Package export for active mod widgets.
+
+[File] ui/panels/active_mods/active_mod_group.py
+  Widget for one active mod group.
+
+[File] ui/panels/active_mods/active_mod_panel.py
+  Top-level panel that manages all active mod groups for the current slot.
+
+[File] ui/panels/active_mods/active_mod_row.py
+  Widget for one active modifier row inside a group.
+
+[File] ui/panels/active_mods/common.py
+  Shared constants, styles, and helpers for active mod widgets.
+
+[Folder] ui/panels/item_base_filter/
+  User-interface package for choosing valid base items per slot.
+
+[File] ui/panels/item_base_filter/__init__.py
+  Package export for the item base filter panel.
+
+[File] ui/panels/item_base_filter/hierarchy_content.py
+  Builds the nested item-base selection interface for one slot.
+
+[File] ui/panels/item_base_filter/panel.py
+  Public item base filter panel class used by the rest of the UI.
+
+[File] ui/panels/item_base_filter/state_resolver.py
+  Converts nested base selections into the final flat base-name list.
+
+[File] ui/panels/item_base_filter/styles.py
+  Styles, collapsible sections, and flow widgets used by the base filter UI.
+
+[Folder] ui/panels/item_property_filter/
+  User-interface package for extra item property filters.
+
+[File] ui/panels/item_property_filter/__init__.py
+  Package export for the item property filter panel.
+
+[File] ui/panels/item_property_filter/auto_layout.py
+  Custom section layout helper for the property filter interface.
+
+[File] ui/panels/item_property_filter/constants.py
+  Static property-filter definitions and style constants.
+
+[File] ui/panels/item_property_filter/content.py
+  Builds the current slot property-filter content.
+
+[File] ui/panels/item_property_filter/filter_state.py
+  Turns current property widgets into the saved filter dictionary.
+
+[File] ui/panels/item_property_filter/panel.py
+  Public item property filter panel class used by the rest of the UI.
+
+[File] ui/panels/item_property_filter/widgets.py
+  Small reusable widgets used inside the property filter UI.
+
+[Folder] ui/panels/mod_search/
+  Search and selection interface for available Path of Exile modifier stats.
+
+[File] ui/panels/mod_search/__init__.py
+  Package export for the modifier search panel.
+
+[File] ui/panels/mod_search/category_bar.py
+  Button row for modifier search categories.
+
+[File] ui/panels/mod_search/constants.py
+  Static modifier-search display constants.
+
+[File] ui/panels/mod_search/min_match_slider.py
+  Widget for the minimum-match highlight threshold slider.
+
+[File] ui/panels/mod_search/panel.py
+  Public modifier search panel that coordinates search, results, and active mods.
+
+[File] ui/panels/mod_search/results_table.py
+  Results table widget for found modifiers.
+
+[File] ui/panels/mod_search/search_bar.py
+  Search text field row for the modifier search panel.
+
+[Folder] ui/shared/
+  Shared UI constants, styles, and small helpers.
+
+[File] ui/shared/__init__.py
+  Package export for shared UI helpers.
+
+[File] ui/shared/constants.py
+  Shared UI constants such as item slots, leagues, and stash-tab badges.
+
+[File] ui/shared/scroll.py
+  Small helper for wrapping widgets in a scroll area.
+
+[File] ui/shared/theme.py
+  Shared dark-theme stylesheet and related UI theme helpers.
+
+[File] ui/sound.py
+  Small helper for playing the scan-complete notification sound.
+
+[Folder] ui/tabs/
+  Top-level tabs shown in the main desktop window.
+
+[File] ui/tabs/__init__.py
+  Package export for top-level tabs.
+
+[File] ui/tabs/account_tab.py
+  Account, league, and stash-selection tab.
+
+[File] ui/tabs/config_tab.py
+  General configuration tab.
+
+[File] ui/tabs/options_tab.py
+  Additional options tab.
+
+[Folder] ui/tabs/overlay_settings/
+  Overlay settings split into focused sub-groups.
+
+[File] ui/tabs/overlay_settings/__init__.py
+  Package export for overlay settings widgets.
+
+[File] ui/tabs/overlay_settings/appearance_groups.py
+  Appearance-related overlay setting groups such as colours and fonts.
+
+[File] ui/tabs/overlay_settings/calibration_group.py
+  Grid calibration controls for aligning the overlay to the stash window.
+
+[File] ui/tabs/overlay_settings/constants.py
+  Static row definitions used by overlay settings widgets.
+
+[File] ui/tabs/overlay_settings/sidebar_keybind_groups.py
+  Sidebar orientation and hotkey configuration groups.
+
+[File] ui/tabs/overlay_settings/tab.py
+  Public Overlay tab that assembles the overlay settings groups.
+
+[File] ui/tabs/scan_filters_tab.py
+  Main filter-building tab that coordinates slot state and the filter panels.
+
+[Folder] ui/widgets/
+  Small reusable widgets used by larger tabs and panels.
+
+[File] ui/widgets/__init__.py
+  Package export for small reusable widgets.
+
+[File] ui/widgets/loadout_selector_bar.py
+  Top bar used to choose, create, and delete loadouts.
+
+[File] ui/widgets/scan_action_bar.py
+  Bottom bar with scan button, stash dropdown, and status label.
+
+[File] ui/widgets/slot_bar.py
+  Reusable slot-button bar used by the scan and filter tab.
+
+[Folder] workers/
+  Thin Qt thread wrappers for slow background tasks.
+
+[File] workers/__init__.py
+  Package export for background workers.
+
+[File] workers/stash_list_worker.py
+  Background worker that fetches the stash-tab list.
+
+[File] workers/stash_scan_worker.py
+  Background worker that fetches one stash tab and scores its items.
