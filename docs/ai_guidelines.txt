@@ -1,0 +1,74 @@
+PROJECT GUIDELINES (IMPORTANT)
+
+APP CONTEXT
+This project is a desktop tool built around the game Path of Exile by Grinding Gear Games.
+
+The purpose of the application is:
+
+* Help players analyze their stash
+* Highlight useful or valuable items based on custom user-defined filters
+* Improve decision making when sorting, keeping, or selling items
+
+Planned and current features include:
+
+* Highlighting items in stash tabs based on filters
+* Advanced mod-based filtering (prefix/suffix/stat combinations)
+* Stash-wide item evaluation
+* Future: price estimation using Path of Exile trade data
+* Future: helping users set correct prices when listing items in premium stash tabs
+  based on comparison with the official trade website
+
+The tool must remain compliant with Path of Exile API and Terms of Service:
+
+* Use official APIs when possible
+* Respect rate limits
+* Do not simulate gameplay or interact with the game client directly
+
+ARCHITECTURE
+
+* MVC-oriented structure
+* Clear separation of concerns:
+
+  * models = data structures
+  * views (ui) = Qt widgets only
+  * controllers = orchestration
+  * services = business workflows
+  * api = HTTP clients only
+  * logic = pure computation (no UI, no IO)
+
+CODE QUALITY
+
+* Code must be beginner-friendly
+* Prefer explicit, readable code over clever or compact code
+* Avoid abbreviations unless obvious
+* Use descriptive naming everywhere
+* Each file must have ONE clear responsibility
+
+STRUCTURE
+
+* No large “god files”
+* Prefer splitting into small focused modules
+* Avoid mixing UI, logic, and data access in the same file
+* Folder structure must reflect responsibilities clearly
+
+DOCUMENTATION
+
+* Every non-trivial file must explain its purpose
+* Comments should explain WHY, not only WHAT
+* Keep README and docs consistent with actual project structure
+* Maintain a clear mental model for new contributors
+
+REFACTOR RULES
+
+* Remove obsolete code, files, and folders when replaced
+* Do NOT keep legacy compatibility unless explicitly required
+* Prefer clean rewrites over patching messy code
+* Avoid duplicate logic — centralize shared behavior
+
+GOAL
+The project must remain:
+
+* readable
+* maintainable
+* scalable for future features
+* easy to understand for a beginner developer
