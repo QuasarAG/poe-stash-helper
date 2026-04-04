@@ -87,6 +87,7 @@ class ScanFiltersTab(QWidget):
         wrapper.addWidget(scroll)
 
         self._refresh_loadout_dropdown()
+        self._on_loadout_dropdown_changed(self._loadout_selector.current_index())
 
     def _build_loadout_group(self) -> QGroupBox:
         group_box = QGroupBox("Loadouts")
@@ -305,11 +306,12 @@ class ScanFiltersTab(QWidget):
 
     def _on_loadout_dropdown_changed(self, _index: int) -> None:
         name = self.get_current_loadout_name()
+
         if not name:
+            self._slot_bar.set_add_slot_button_visible(False)
             self._slot_bar.rebuild("", [])
             self.get_active_mod_panel().clear_all()
             self.set_search_enabled(False)
-            self._slot_bar.set_add_slot_button_visible(False)
             self.loadout_selection_changed.emit()
             return
 
@@ -317,6 +319,8 @@ class ScanFiltersTab(QWidget):
         slots = [slot_name for slot_name in ITEM_SLOTS if slot_name in raw]
         first_slot = slots[0] if slots else ""
 
+        # Important: set visibility BEFORE rebuilding the flow widget.
+        self._slot_bar.set_add_slot_button_visible(True)
         self._slot_bar.rebuild(first_slot, slots)
         self.get_active_mod_panel().clear_all()
 
@@ -325,7 +329,6 @@ class ScanFiltersTab(QWidget):
         else:
             self.set_search_enabled(False)
 
-        self._slot_bar.set_add_slot_button_visible(True)
         self.loadout_selection_changed.emit()
 
     def _on_add_slot_button_clicked(self) -> None:

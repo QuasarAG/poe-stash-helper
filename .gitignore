@@ -4,13 +4,13 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Generated databases — rebuilt by "Update from RePoE.bat"
-data/base_types.json
-data/mod_data.py
+# Generated databases — commit these to GitHub
+!data/base_types.json
+!data/mod_data.py
 
 # Download caches — rebuilt on demand
-.cache/
-cache/
+!.cache/
+!cache/
 
 # OAuth token — contains personal credentials
 .token_cache.json

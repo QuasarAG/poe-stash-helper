@@ -1,0 +1,5126 @@
+{
+  "ARMOUR": {
+    "Helmet": [
+      {
+        "name": "Iron Hat",
+        "stats": "STR",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Leather Cap",
+        "stats": "DEX",
+        "req_ilvl": 3
+      },
+      {
+        "name": "Vine Circlet",
+        "stats": "INT",
+        "req_ilvl": 3
+      },
+      {
+        "name": "Battered Helm",
+        "stats": "STR/DEX",
+        "req_ilvl": 4
+      },
+      {
+        "name": "Scare Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 4
+      },
+      {
+        "name": "Rusted Coif",
+        "stats": "STR/INT",
+        "req_ilvl": 5
+      },
+      {
+        "name": "Cone Helmet",
+        "stats": "STR",
+        "req_ilvl": 7
+      },
+      {
+        "name": "Iron Circlet",
+        "stats": "INT",
+        "req_ilvl": 8
+      },
+      {
+        "name": "Plague Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 10
+      },
+      {
+        "name": "Tricorne",
+        "stats": "DEX",
+        "req_ilvl": 10
+      },
+      {
+        "name": "Golden Visage",
+        "stats": "NONE",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Golden Wreath",
+        "stats": "NONE",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Soldier Helmet",
+        "stats": "STR/INT",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Sallet",
+        "stats": "STR/DEX",
+        "req_ilvl": 13
+      },
+      {
+        "name": "Gale Crown",
+        "stats": "DEX/INT",
+        "req_ilvl": 15
+      },
+      {
+        "name": "Imp Crown",
+        "stats": "STR/INT",
+        "req_ilvl": 15
+      },
+      {
+        "name": "Sorrow Mask",
+        "stats": "STR/DEX",
+        "req_ilvl": 15
+      },
+      {
+        "name": "Iron Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 17
+      },
+      {
+        "name": "Torture Cage",
+        "stats": "INT",
+        "req_ilvl": 17
+      },
+      {
+        "name": "Barbute Helmet",
+        "stats": "STR",
+        "req_ilvl": 18
+      },
+      {
+        "name": "Leather Hood",
+        "stats": "DEX",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Great Helmet",
+        "stats": "STR/INT",
+        "req_ilvl": 22
+      },
+      {
+        "name": "Visored Sallet",
+        "stats": "STR/DEX",
+        "req_ilvl": 23
+      },
+      {
+        "name": "Runic Helm",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Close Helmet",
+        "stats": "STR",
+        "req_ilvl": 26
+      },
+      {
+        "name": "Tribal Circlet",
+        "stats": "INT",
+        "req_ilvl": 26
+      },
+      {
+        "name": "Festival Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 28
+      },
+      {
+        "name": "Wolf Pelt",
+        "stats": "DEX",
+        "req_ilvl": 30
+      },
+      {
+        "name": "Crusader Helmet",
+        "stats": "STR/INT",
+        "req_ilvl": 31
+      },
+      {
+        "name": "Gilded Sallet",
+        "stats": "STR/DEX",
+        "req_ilvl": 33
+      },
+      {
+        "name": "Bone Circlet",
+        "stats": "INT",
+        "req_ilvl": 34
+      },
+      {
+        "name": "Gladiator Helmet",
+        "stats": "STR",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Golden Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Secutor Helm",
+        "stats": "STR/DEX",
+        "req_ilvl": 36
+      },
+      {
+        "name": "Aventail Helmet",
+        "stats": "STR/INT",
+        "req_ilvl": 37
+      },
+      {
+        "name": "Raven Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 38
+      },
+      {
+        "name": "Lunaris Circlet",
+        "stats": "INT",
+        "req_ilvl": 39
+      },
+      {
+        "name": "Reaver Helmet",
+        "stats": "STR",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Hunter Hood",
+        "stats": "DEX",
+        "req_ilvl": 41
+      },
+      {
+        "name": "Fencer Helm",
+        "stats": "STR/DEX",
+        "req_ilvl": 43
+      },
+      {
+        "name": "Zealot Helmet",
+        "stats": "STR/INT",
+        "req_ilvl": 44
+      },
+      {
+        "name": "Atonement Mask",
+        "stats": "STR/DEX",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Callous Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Demon Crown",
+        "stats": "STR/INT",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Winter Crown",
+        "stats": "DEX/INT",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Noble Tricorne",
+        "stats": "DEX",
+        "req_ilvl": 47
+      },
+      {
+        "name": "Siege Helmet",
+        "stats": "STR",
+        "req_ilvl": 48
+      },
+      {
+        "name": "Steel Circlet",
+        "stats": "INT",
+        "req_ilvl": 48
+      },
+      {
+        "name": "Runic Crest",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 49
+      },
+      {
+        "name": "Lacquered Helmet",
+        "stats": "STR/DEX",
+        "req_ilvl": 51
+      },
+      {
+        "name": "Regicide Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 52
+      },
+      {
+        "name": "Great Crown",
+        "stats": "STR/INT",
+        "req_ilvl": 53
+      },
+      {
+        "name": "Necromancer Circlet",
+        "stats": "INT",
+        "req_ilvl": 54
+      },
+      {
+        "name": "Samnite Helmet",
+        "stats": "STR",
+        "req_ilvl": 55
+      },
+      {
+        "name": "Ursine Pelt",
+        "stats": "DEX",
+        "req_ilvl": 55
+      },
+      {
+        "name": "Harlequin Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 57
+      },
+      {
+        "name": "Fluted Bascinet",
+        "stats": "STR/DEX",
+        "req_ilvl": 58
+      },
+      {
+        "name": "Magistrate Crown",
+        "stats": "STR/INT",
+        "req_ilvl": 58
+      },
+      {
+        "name": "Solaris Circlet",
+        "stats": "INT",
+        "req_ilvl": 59
+      },
+      {
+        "name": "Ezomyte Burgonet",
+        "stats": "STR",
+        "req_ilvl": 60
+      },
+      {
+        "name": "Silken Hood",
+        "stats": "DEX",
+        "req_ilvl": 60
+      },
+      {
+        "name": "Vaal Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 62
+      },
+      {
+        "name": "Pig-Faced Bascinet",
+        "stats": "STR/DEX",
+        "req_ilvl": 63
+      },
+      {
+        "name": "Prophet Crown",
+        "stats": "STR/INT",
+        "req_ilvl": 63
+      },
+      {
+        "name": "Sinner Tricorne",
+        "stats": "DEX",
+        "req_ilvl": 64
+      },
+      {
+        "name": "Mind Cage",
+        "stats": "INT",
+        "req_ilvl": 65
+      },
+      {
+        "name": "Royal Burgonet",
+        "stats": "STR",
+        "req_ilvl": 65
+      },
+      {
+        "name": "Deicide Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 67
+      },
+      {
+        "name": "Nightmare Bascinet",
+        "stats": "STR/DEX",
+        "req_ilvl": 67
+      },
+      {
+        "name": "Praetor Crown",
+        "stats": "STR/INT",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Runic Crown",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Eternal Burgonet",
+        "stats": "STR",
+        "req_ilvl": 69
+      },
+      {
+        "name": "Hubris Circlet",
+        "stats": "INT",
+        "req_ilvl": 69
+      },
+      {
+        "name": "Lion Pelt",
+        "stats": "DEX",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Bone Helmet",
+        "stats": "STR/INT",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Dire Pelt",
+        "stats": "DEX",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Faithful Helmet",
+        "stats": "STR/INT",
+        "req_ilvl": 73
+      },
+      {
+        "name": "General's Helmet",
+        "stats": "STR",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Jester Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Knight Helm",
+        "stats": "STR/DEX",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Moonlit Circlet",
+        "stats": "INT",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Archdemon Crown",
+        "stats": "STR/INT",
+        "req_ilvl": 75
+      },
+      {
+        "name": "Blizzard Crown",
+        "stats": "DEX/INT",
+        "req_ilvl": 75
+      },
+      {
+        "name": "Penitent Mask",
+        "stats": "STR/DEX",
+        "req_ilvl": 75
+      },
+      {
+        "name": "Ancient Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Conqueror's Helmet",
+        "stats": "STR",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Conquest Helmet",
+        "stats": "STR/DEX",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Grizzly Pelt",
+        "stats": "DEX",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Paladin Crown",
+        "stats": "STR/INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Sunfire Circlet",
+        "stats": "INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Divine Crown",
+        "stats": "STR/INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Giantslayer Helmet",
+        "stats": "STR",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Haunted Bascinet",
+        "stats": "STR/DEX",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Lich's Circlet",
+        "stats": "INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Majestic Pelt",
+        "stats": "DEX",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Torturer's Mask",
+        "stats": "DEX/INT",
+        "req_ilvl": 84
+      }
+    ],
+    "Body Armour": [
+      {
+        "name": "Plate Vest",
+        "stats": "STR",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Shabby Jerkin",
+        "stats": "DEX",
+        "req_ilvl": 2
+      },
+      {
+        "name": "Simple Robe",
+        "stats": "INT",
+        "req_ilvl": 3
+      },
+      {
+        "name": "Chainmail Vest",
+        "stats": "STR/INT",
+        "req_ilvl": 4
+      },
+      {
+        "name": "Padded Vest",
+        "stats": "DEX/INT",
+        "req_ilvl": 4
+      },
+      {
+        "name": "Scale Vest",
+        "stats": "STR/DEX",
+        "req_ilvl": 4
+      },
+      {
+        "name": "Chestplate",
+        "stats": "STR",
+        "req_ilvl": 6
+      },
+      {
+        "name": "Chainmail Tunic",
+        "stats": "STR/INT",
+        "req_ilvl": 8
+      },
+      {
+        "name": "Light Brigandine",
+        "stats": "STR/DEX",
+        "req_ilvl": 8
+      },
+      {
+        "name": "Oiled Vest",
+        "stats": "DEX/INT",
+        "req_ilvl": 9
+      },
+      {
+        "name": "Strapped Leather",
+        "stats": "DEX",
+        "req_ilvl": 9
+      },
+      {
+        "name": "Silken Vest",
+        "stats": "INT",
+        "req_ilvl": 11
+      },
+      {
+        "name": "Buckskin Tunic",
+        "stats": "DEX",
+        "req_ilvl": 17
+      },
+      {
+        "name": "Copper Plate",
+        "stats": "STR",
+        "req_ilvl": 17
+      },
+      {
+        "name": "Ringmail Coat",
+        "stats": "STR/INT",
+        "req_ilvl": 17
+      },
+      {
+        "name": "Scale Doublet",
+        "stats": "STR/DEX",
+        "req_ilvl": 17
+      },
+      {
+        "name": "Padded Jacket",
+        "stats": "DEX/INT",
+        "req_ilvl": 18
+      },
+      {
+        "name": "Scholar's Robe",
+        "stats": "INT",
+        "req_ilvl": 18
+      },
+      {
+        "name": "Golden Mantle",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Chainmail Doublet",
+        "stats": "STR/INT",
+        "req_ilvl": 21
+      },
+      {
+        "name": "Infantry Brigandine",
+        "stats": "STR/DEX",
+        "req_ilvl": 21
+      },
+      {
+        "name": "War Plate",
+        "stats": "STR",
+        "req_ilvl": 21
+      },
+      {
+        "name": "Oiled Coat",
+        "stats": "DEX/INT",
+        "req_ilvl": 22
+      },
+      {
+        "name": "Silken Garb",
+        "stats": "INT",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Wild Leather",
+        "stats": "DEX",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Full Leather",
+        "stats": "DEX",
+        "req_ilvl": 28
+      },
+      {
+        "name": "Full Plate",
+        "stats": "STR",
+        "req_ilvl": 28
+      },
+      {
+        "name": "Full Ringmail",
+        "stats": "STR/INT",
+        "req_ilvl": 28
+      },
+      {
+        "name": "Full Scale Armour",
+        "stats": "STR/DEX",
+        "req_ilvl": 28
+      },
+      {
+        "name": "Mage's Vestment",
+        "stats": "INT",
+        "req_ilvl": 28
+      },
+      {
+        "name": "Scarlet Raiment",
+        "stats": "DEX/INT",
+        "req_ilvl": 28
+      },
+      {
+        "name": "Arena Plate",
+        "stats": "STR",
+        "req_ilvl": 32
+      },
+      {
+        "name": "Full Chainmail",
+        "stats": "STR/INT",
+        "req_ilvl": 32
+      },
+      {
+        "name": "Silk Robe",
+        "stats": "INT",
+        "req_ilvl": 32
+      },
+      {
+        "name": "Soldier's Brigandine",
+        "stats": "STR/DEX",
+        "req_ilvl": 32
+      },
+      {
+        "name": "Sun Leather",
+        "stats": "DEX",
+        "req_ilvl": 32
+      },
+      {
+        "name": "Waxed Garb",
+        "stats": "DEX/INT",
+        "req_ilvl": 32
+      },
+      {
+        "name": "Bone Armour",
+        "stats": "DEX/INT",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Cabalist Regalia",
+        "stats": "INT",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Field Lamellar",
+        "stats": "STR/DEX",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Holy Chainmail",
+        "stats": "STR/INT",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Lordly Plate",
+        "stats": "STR",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Thief's Garb",
+        "stats": "DEX",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Bronze Plate",
+        "stats": "STR",
+        "req_ilvl": 37
+      },
+      {
+        "name": "Eelskin Tunic",
+        "stats": "DEX",
+        "req_ilvl": 37
+      },
+      {
+        "name": "Sage's Robe",
+        "stats": "INT",
+        "req_ilvl": 37
+      },
+      {
+        "name": "Wyrmscale Doublet",
+        "stats": "STR/DEX",
+        "req_ilvl": 38
+      },
+      {
+        "name": "Latticed Ringmail",
+        "stats": "STR/INT",
+        "req_ilvl": 39
+      },
+      {
+        "name": "Quilted Jacket",
+        "stats": "DEX/INT",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Battle Plate",
+        "stats": "STR",
+        "req_ilvl": 41
+      },
+      {
+        "name": "Frontier Leather",
+        "stats": "DEX",
+        "req_ilvl": 41
+      },
+      {
+        "name": "Silken Wrap",
+        "stats": "INT",
+        "req_ilvl": 41
+      },
+      {
+        "name": "Hussar Brigandine",
+        "stats": "STR/DEX",
+        "req_ilvl": 42
+      },
+      {
+        "name": "Crusader Chainmail",
+        "stats": "STR/INT",
+        "req_ilvl": 43
+      },
+      {
+        "name": "Sleek Coat",
+        "stats": "DEX/INT",
+        "req_ilvl": 44
+      },
+      {
+        "name": "Conjurer's Vestment",
+        "stats": "INT",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Glorious Leather",
+        "stats": "DEX",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Sun Plate",
+        "stats": "STR",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Full Wyrmscale",
+        "stats": "STR/DEX",
+        "req_ilvl": 46
+      },
+      {
+        "name": "Ornate Ringmail",
+        "stats": "STR/INT",
+        "req_ilvl": 47
+      },
+      {
+        "name": "Crimson Raiment",
+        "stats": "DEX/INT",
+        "req_ilvl": 48
+      },
+      {
+        "name": "Colosseum Plate",
+        "stats": "STR",
+        "req_ilvl": 49
+      },
+      {
+        "name": "Coronal Leather",
+        "stats": "DEX",
+        "req_ilvl": 49
+      },
+      {
+        "name": "Spidersilk Robe",
+        "stats": "INT",
+        "req_ilvl": 49
+      },
+      {
+        "name": "Commander's Brigandine",
+        "stats": "STR/DEX",
+        "req_ilvl": 50
+      },
+      {
+        "name": "Chain Hauberk",
+        "stats": "STR/INT",
+        "req_ilvl": 51
+      },
+      {
+        "name": "Lacquered Garb",
+        "stats": "DEX/INT",
+        "req_ilvl": 52
+      },
+      {
+        "name": "Cutthroat's Garb",
+        "stats": "DEX",
+        "req_ilvl": 53
+      },
+      {
+        "name": "Destroyer Regalia",
+        "stats": "INT",
+        "req_ilvl": 53
+      },
+      {
+        "name": "Majestic Plate",
+        "stats": "STR",
+        "req_ilvl": 53
+      },
+      {
+        "name": "Battle Lamellar",
+        "stats": "STR/DEX",
+        "req_ilvl": 54
+      },
+      {
+        "name": "Devout Chainmail",
+        "stats": "STR/INT",
+        "req_ilvl": 55
+      },
+      {
+        "name": "Crypt Armour",
+        "stats": "DEX/INT",
+        "req_ilvl": 56
+      },
+      {
+        "name": "Golden Plate",
+        "stats": "STR",
+        "req_ilvl": 56
+      },
+      {
+        "name": "Savant's Robe",
+        "stats": "INT",
+        "req_ilvl": 56
+      },
+      {
+        "name": "Sharkskin Tunic",
+        "stats": "DEX",
+        "req_ilvl": 56
+      },
+      {
+        "name": "Dragonscale Doublet",
+        "stats": "STR/DEX",
+        "req_ilvl": 57
+      },
+      {
+        "name": "Loricated Ringmail",
+        "stats": "STR/INT",
+        "req_ilvl": 58
+      },
+      {
+        "name": "Crusader Plate",
+        "stats": "STR",
+        "req_ilvl": 59
+      },
+      {
+        "name": "Destiny Leather",
+        "stats": "DEX",
+        "req_ilvl": 59
+      },
+      {
+        "name": "Necromancer Silks",
+        "stats": "INT",
+        "req_ilvl": 59
+      },
+      {
+        "name": "Sentinel Jacket",
+        "stats": "DEX/INT",
+        "req_ilvl": 59
+      },
+      {
+        "name": "Desert Brigandine",
+        "stats": "STR/DEX",
+        "req_ilvl": 60
+      },
+      {
+        "name": "Conquest Chainmail",
+        "stats": "STR/INT",
+        "req_ilvl": 61
+      },
+      {
+        "name": "Astral Plate",
+        "stats": "STR",
+        "req_ilvl": 62
+      },
+      {
+        "name": "Exquisite Leather",
+        "stats": "DEX",
+        "req_ilvl": 62
+      },
+      {
+        "name": "Occultist's Vestment",
+        "stats": "INT",
+        "req_ilvl": 62
+      },
+      {
+        "name": "Varnished Coat",
+        "stats": "DEX/INT",
+        "req_ilvl": 62
+      },
+      {
+        "name": "Full Dragonscale",
+        "stats": "STR/DEX",
+        "req_ilvl": 63
+      },
+      {
+        "name": "Elegant Ringmail",
+        "stats": "STR/INT",
+        "req_ilvl": 64
+      },
+      {
+        "name": "Blood Raiment",
+        "stats": "DEX/INT",
+        "req_ilvl": 65
+      },
+      {
+        "name": "Gladiator Plate",
+        "stats": "STR",
+        "req_ilvl": 65
+      },
+      {
+        "name": "Widowsilk Robe",
+        "stats": "INT",
+        "req_ilvl": 65
+      },
+      {
+        "name": "Zodiac Leather",
+        "stats": "DEX",
+        "req_ilvl": 65
+      },
+      {
+        "name": "General's Brigandine",
+        "stats": "STR/DEX",
+        "req_ilvl": 66
+      },
+      {
+        "name": "Saint's Hauberk",
+        "stats": "STR/INT",
+        "req_ilvl": 67
+      },
+      {
+        "name": "Assassin's Garb",
+        "stats": "DEX",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Glorious Plate",
+        "stats": "STR",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Sadist Garb",
+        "stats": "DEX/INT",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Vaal Regalia",
+        "stats": "INT",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Triumphant Lamellar",
+        "stats": "STR/DEX",
+        "req_ilvl": 69
+      },
+      {
+        "name": "Grasping Mail",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Saintly Chainmail",
+        "stats": "STR/INT",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Carnal Armour",
+        "stats": "DEX/INT",
+        "req_ilvl": 71
+      },
+      {
+        "name": "Sacrificial Garb",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 72
+      },
+      {
+        "name": "Arcane Vestment",
+        "stats": "INT",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Full Wyvernscale",
+        "stats": "STR/DEX",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Grand Ringmail",
+        "stats": "STR/INT",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Sanguine Raiment",
+        "stats": "DEX/INT",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Supreme Leather",
+        "stats": "DEX",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Titan Plate",
+        "stats": "STR",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Astral Leather",
+        "stats": "DEX",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Legion Plate",
+        "stats": "STR",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Marshall's Brigandine",
+        "stats": "STR/DEX",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Nightweave Robe",
+        "stats": "INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Paladin's Hauberk",
+        "stats": "STR/INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Torturer Garb",
+        "stats": "DEX/INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Conquest Lamellar",
+        "stats": "STR/DEX",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Necrotic Armour",
+        "stats": "DEX/INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Royal Plate",
+        "stats": "STR",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Sacred Chainmail",
+        "stats": "STR/INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Syndicate's Garb",
+        "stats": "DEX",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Twilight Regalia",
+        "stats": "INT",
+        "req_ilvl": 84
+      }
+    ],
+    "Gloves": [
+      {
+        "name": "Iron Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Rawhide Gloves",
+        "stats": "DEX",
+        "req_ilvl": 3
+      },
+      {
+        "name": "Wool Gloves",
+        "stats": "INT",
+        "req_ilvl": 3
+      },
+      {
+        "name": "Fishscale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 4
+      },
+      {
+        "name": "Wrapped Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 5
+      },
+      {
+        "name": "Chain Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 7
+      },
+      {
+        "name": "Goathide Gloves",
+        "stats": "DEX",
+        "req_ilvl": 9
+      },
+      {
+        "name": "Leyline Gloves",
+        "stats": "INT",
+        "req_ilvl": 10
+      },
+      {
+        "name": "Preserving Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 10
+      },
+      {
+        "name": "Tinker Gloves",
+        "stats": "DEX",
+        "req_ilvl": 10
+      },
+      {
+        "name": "Plated Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 11
+      },
+      {
+        "name": "Golden Bracers",
+        "stats": "NONE",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Velvet Gloves",
+        "stats": "INT",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Ironscale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 15
+      },
+      {
+        "name": "Strapped Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 16
+      },
+      {
+        "name": "Ringmail Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 19
+      },
+      {
+        "name": "Deerskin Gloves",
+        "stats": "DEX",
+        "req_ilvl": 21
+      },
+      {
+        "name": "Bronze Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 23
+      },
+      {
+        "name": "Runic Gloves",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 24
+      },
+      {
+        "name": "Silk Gloves",
+        "stats": "INT",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Bronzescale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 27
+      },
+      {
+        "name": "Clasped Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 31
+      },
+      {
+        "name": "Mesh Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 32
+      },
+      {
+        "name": "Nubuck Gloves",
+        "stats": "DEX",
+        "req_ilvl": 33
+      },
+      {
+        "name": "Steel Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Embroidered Gloves",
+        "stats": "INT",
+        "req_ilvl": 36
+      },
+      {
+        "name": "Steelscale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 36
+      },
+      {
+        "name": "Trapper Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 36
+      },
+      {
+        "name": "Riveted Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 37
+      },
+      {
+        "name": "Eelskin Gloves",
+        "stats": "DEX",
+        "req_ilvl": 38
+      },
+      {
+        "name": "Antique Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 39
+      },
+      {
+        "name": "Aetherwind Gloves",
+        "stats": "INT",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Apprentice Gloves",
+        "stats": "DEX",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Guarding Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Satin Gloves",
+        "stats": "INT",
+        "req_ilvl": 41
+      },
+      {
+        "name": "Serpentscale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 43
+      },
+      {
+        "name": "Zealot Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 43
+      },
+      {
+        "name": "Ambush Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Sharkskin Gloves",
+        "stats": "DEX",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Ancient Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 47
+      },
+      {
+        "name": "Samite Gloves",
+        "stats": "INT",
+        "req_ilvl": 47
+      },
+      {
+        "name": "Runic Gages",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 48
+      },
+      {
+        "name": "Wyrmscale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 49
+      },
+      {
+        "name": "Carnal Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 50
+      },
+      {
+        "name": "Soldier Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 51
+      },
+      {
+        "name": "Goliath Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 53
+      },
+      {
+        "name": "Shagreen Gloves",
+        "stats": "DEX",
+        "req_ilvl": 54
+      },
+      {
+        "name": "Conjurer Gloves",
+        "stats": "INT",
+        "req_ilvl": 55
+      },
+      {
+        "name": "Legion Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 57
+      },
+      {
+        "name": "Assassin's Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 58
+      },
+      {
+        "name": "Hydrascale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 59
+      },
+      {
+        "name": "Arcanist Gloves",
+        "stats": "INT",
+        "req_ilvl": 60
+      },
+      {
+        "name": "Stealth Gloves",
+        "stats": "DEX",
+        "req_ilvl": 62
+      },
+      {
+        "name": "Vaal Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 63
+      },
+      {
+        "name": "Crusader Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 66
+      },
+      {
+        "name": "Dragonscale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 67
+      },
+      {
+        "name": "Murder Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 67
+      },
+      {
+        "name": "Runic Gauntlets",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 69
+      },
+      {
+        "name": "Sorcerer Gloves",
+        "stats": "INT",
+        "req_ilvl": 69
+      },
+      {
+        "name": "Titan Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 69
+      },
+      {
+        "name": "Apothecary's Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Fingerless Silk Gloves",
+        "stats": "INT",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Gripped Gloves",
+        "stats": "DEX",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Nexus Gloves",
+        "stats": "INT",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Slink Gloves",
+        "stats": "DEX",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Spiked Gloves",
+        "stats": "STR",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Thwarting Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Trapsetter Gloves",
+        "stats": "DEX",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Chimerascale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Harpyskin Gloves",
+        "stats": "DEX",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Infiltrator Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Martyr Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Precursor Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Sage Gloves",
+        "stats": "INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Leviathan Gauntlets",
+        "stats": "STR",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Paladin Gloves",
+        "stats": "STR/INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Phantom Mitts",
+        "stats": "DEX/INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Velour Gloves",
+        "stats": "DEX",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Warlock Gloves",
+        "stats": "INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Wyvernscale Gauntlets",
+        "stats": "STR/DEX",
+        "req_ilvl": 84
+      }
+    ],
+    "Boots": [
+      {
+        "name": "Avian Slippers",
+        "stats": "NONE",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Iron Greaves",
+        "stats": "STR",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Rawhide Boots",
+        "stats": "DEX",
+        "req_ilvl": 3
+      },
+      {
+        "name": "Wool Shoes",
+        "stats": "INT",
+        "req_ilvl": 3
+      },
+      {
+        "name": "Chain Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 5
+      },
+      {
+        "name": "Leatherscale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 6
+      },
+      {
+        "name": "Wrapped Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 6
+      },
+      {
+        "name": "Steel Greaves",
+        "stats": "STR",
+        "req_ilvl": 9
+      },
+      {
+        "name": "Velvet Slippers",
+        "stats": "INT",
+        "req_ilvl": 9
+      },
+      {
+        "name": "Goathide Boots",
+        "stats": "DEX",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Golden Caligae",
+        "stats": "NONE",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Ringmail Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 13
+      },
+      {
+        "name": "Strapped Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 16
+      },
+      {
+        "name": "Ironscale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 18
+      },
+      {
+        "name": "Basemetal Treads",
+        "stats": "STR",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Cloudwhisper Boots",
+        "stats": "DEX",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Duskwalk Slippers",
+        "stats": "INT",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Deerskin Boots",
+        "stats": "DEX",
+        "req_ilvl": 22
+      },
+      {
+        "name": "Silk Slippers",
+        "stats": "INT",
+        "req_ilvl": 22
+      },
+      {
+        "name": "Plated Greaves",
+        "stats": "STR",
+        "req_ilvl": 23
+      },
+      {
+        "name": "Runic Greaves",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 24
+      },
+      {
+        "name": "Clasped Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 27
+      },
+      {
+        "name": "Mesh Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 28
+      },
+      {
+        "name": "Bronzescale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 30
+      },
+      {
+        "name": "Scholar Boots",
+        "stats": "INT",
+        "req_ilvl": 32
+      },
+      {
+        "name": "Reinforced Greaves",
+        "stats": "STR",
+        "req_ilvl": 33
+      },
+      {
+        "name": "Nubuck Boots",
+        "stats": "DEX",
+        "req_ilvl": 34
+      },
+      {
+        "name": "Shackled Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 34
+      },
+      {
+        "name": "Riveted Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 36
+      },
+      {
+        "name": "Steelscale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 36
+      },
+      {
+        "name": "Antique Greaves",
+        "stats": "STR",
+        "req_ilvl": 37
+      },
+      {
+        "name": "Satin Slippers",
+        "stats": "INT",
+        "req_ilvl": 38
+      },
+      {
+        "name": "Eelskin Boots",
+        "stats": "DEX",
+        "req_ilvl": 39
+      },
+      {
+        "name": "Zealot Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Trapper Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 41
+      },
+      {
+        "name": "Serpentscale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 42
+      },
+      {
+        "name": "Samite Slippers",
+        "stats": "INT",
+        "req_ilvl": 44
+      },
+      {
+        "name": "Sharkskin Boots",
+        "stats": "DEX",
+        "req_ilvl": 44
+      },
+      {
+        "name": "Ancient Greaves",
+        "stats": "STR",
+        "req_ilvl": 46
+      },
+      {
+        "name": "Ambush Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 47
+      },
+      {
+        "name": "Runic Sollerets",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 48
+      },
+      {
+        "name": "Soldier Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 49
+      },
+      {
+        "name": "Darksteel Treads",
+        "stats": "STR",
+        "req_ilvl": 50
+      },
+      {
+        "name": "Nightwind Slippers",
+        "stats": "INT",
+        "req_ilvl": 50
+      },
+      {
+        "name": "Windbreak Boots",
+        "stats": "DEX",
+        "req_ilvl": 50
+      },
+      {
+        "name": "Wyrmscale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 51
+      },
+      {
+        "name": "Conjurer Boots",
+        "stats": "INT",
+        "req_ilvl": 53
+      },
+      {
+        "name": "Goliath Greaves",
+        "stats": "STR",
+        "req_ilvl": 54
+      },
+      {
+        "name": "Carnal Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 55
+      },
+      {
+        "name": "Shagreen Boots",
+        "stats": "DEX",
+        "req_ilvl": 55
+      },
+      {
+        "name": "Legion Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 58
+      },
+      {
+        "name": "Hydrascale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 59
+      },
+      {
+        "name": "Arcanist Slippers",
+        "stats": "INT",
+        "req_ilvl": 61
+      },
+      {
+        "name": "Stealth Boots",
+        "stats": "DEX",
+        "req_ilvl": 62
+      },
+      {
+        "name": "Vaal Greaves",
+        "stats": "STR",
+        "req_ilvl": 62
+      },
+      {
+        "name": "Assassin's Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 63
+      },
+      {
+        "name": "Crusader Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 64
+      },
+      {
+        "name": "Dragonscale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 65
+      },
+      {
+        "name": "Sorcerer Boots",
+        "stats": "INT",
+        "req_ilvl": 67
+      },
+      {
+        "name": "Titan Greaves",
+        "stats": "STR",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Murder Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 69
+      },
+      {
+        "name": "Runic Sabatons",
+        "stats": "STR/DEX/INT",
+        "req_ilvl": 69
+      },
+      {
+        "name": "Slink Boots",
+        "stats": "DEX",
+        "req_ilvl": 69
+      },
+      {
+        "name": "Fugitive Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Two-Toned Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Chimerascale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Harpyskin Boots",
+        "stats": "DEX",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Infiltrator Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Martyr Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Precursor Greaves",
+        "stats": "STR",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Sage Slippers",
+        "stats": "INT",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Brimstone Treads",
+        "stats": "STR",
+        "req_ilvl": 80
+      },
+      {
+        "name": "Dreamquest Slippers",
+        "stats": "INT",
+        "req_ilvl": 80
+      },
+      {
+        "name": "Stormrider Boots",
+        "stats": "DEX",
+        "req_ilvl": 80
+      },
+      {
+        "name": "Leviathan Greaves",
+        "stats": "STR",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Paladin Boots",
+        "stats": "STR/INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Phantom Boots",
+        "stats": "DEX/INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Velour Boots",
+        "stats": "DEX",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Warlock Boots",
+        "stats": "INT",
+        "req_ilvl": 84
+      },
+      {
+        "name": "Wyvernscale Boots",
+        "stats": "STR/DEX",
+        "req_ilvl": 84
+      }
+    ]
+  },
+  "ACCESSORIES": {
+    "Ring": [
+      {
+        "name": "Breach Ring",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Ring",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Iron Ring",
+        "req_ilvl": 2
+      },
+      {
+        "name": "Coral Ring",
+        "req_ilvl": 4
+      },
+      {
+        "name": "Paua Ring",
+        "req_ilvl": 5
+      },
+      {
+        "name": "Sapphire Ring",
+        "req_ilvl": 8
+      },
+      {
+        "name": "Golden Hoop",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Topaz Ring",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Ruby Ring",
+        "req_ilvl": 16
+      },
+      {
+        "name": "Gold Ring",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Two-Stone Ring",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Diamond Ring",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Dusk Ring",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Gloam Ring",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Moonstone Ring",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Penumbra Ring",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Shadowed Ring",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Tenebrous Ring",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Bone Ring",
+        "req_ilvl": 30
+      },
+      {
+        "name": "Prismatic Ring",
+        "req_ilvl": 30
+      },
+      {
+        "name": "Amethyst Ring",
+        "req_ilvl": 38
+      },
+      {
+        "name": "Cryonic Ring",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Enthalpic Ring",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Formless Ring",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Fugitive Ring",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Organic Ring",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Synaptic Ring",
+        "req_ilvl": 40
+      },
+      {
+        "name": "Unset Ring",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Cogwork Ring",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Composite Ring",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Geodesic Ring",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Nameless Ring",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Ratcheting Ring",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Helical Ring",
+        "req_ilvl": 75
+      },
+      {
+        "name": "Manifold Ring",
+        "req_ilvl": 75
+      },
+      {
+        "name": "Iolite Ring",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Opal Ring",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Steel Ring",
+        "req_ilvl": 78
+      },
+      {
+        "name": "Cerulean Ring",
+        "req_ilvl": 80
+      },
+      {
+        "name": "Vermillion Ring",
+        "req_ilvl": 80
+      }
+    ],
+    "Amulet": [
+      {
+        "name": "Ashscale Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Avian Twins Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Black Maw Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Bonespire Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Breakrib Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Clutching Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Deadhand Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Deep One Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Fangjaw Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Greatwolf Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Hexclaw Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Horned Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Jet Amulet",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Lone Antler Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Longtooth Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Mandible Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Monkey Paw Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Monkey Twins Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Primal Skull Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Rot Head Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Rotfeather Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Spinefuse Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Splitnewt Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Three Hands Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Three Rat Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Undying Flesh Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Wereclaw Talisman",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Coral Amulet",
+        "req_ilvl": 3
+      },
+      {
+        "name": "Paua Amulet",
+        "req_ilvl": 3
+      },
+      {
+        "name": "Amber Amulet",
+        "req_ilvl": 7
+      },
+      {
+        "name": "Jade Amulet",
+        "req_ilvl": 7
+      },
+      {
+        "name": "Lapis Amulet",
+        "req_ilvl": 7
+      },
+      {
+        "name": "Gold Amulet",
+        "req_ilvl": 15
+      },
+      {
+        "name": "Agate Amulet",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Citrine Amulet",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Turquoise Amulet",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Onyx Amulet",
+        "req_ilvl": 25
+      },
+      {
+        "name": "Chrysalis Talisman",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Writhing Talisman",
+        "req_ilvl": 35
+      },
+      {
+        "name": "Unset Amulet",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Ruby Amulet",
+        "req_ilvl": 50
+      },
+      {
+        "name": "Marble Amulet",
+        "req_ilvl": 74
+      },
+      {
+        "name": "Seaglass Amulet",
+        "req_ilvl": 74
+      },
+      {
+        "name": "Astrolabe Amulet",
+        "req_ilvl": 75
+      },
+      {
+        "name": "Blue Pearl Amulet",
+        "req_ilvl": 77
+      },
+      {
+        "name": "Focused Amulet",
+        "req_ilvl": 80
+      },
+      {
+        "name": "Simplex Amulet",
+        "req_ilvl": 80
+      }
+    ],
+    "Belt": [
+      {
+        "name": "Cord Belt",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Stygian Vise",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Chain Belt",
+        "req_ilvl": 2
+      },
+      {
+        "name": "Rustic Sash",
+        "req_ilvl": 2
+      },
+      {
+        "name": "Heavy Belt",
+        "req_ilvl": 10
+      },
+      {
+        "name": "Leather Belt",
+        "req_ilvl": 10
+      },
+      {
+        "name": "Golden Obi",
+        "req_ilvl": 12
+      },
+      {
+        "name": "Cloth Belt",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Studded Belt",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Micro-Distillery Belt",
+        "req_ilvl": 68
+      },
+      {
+        "name": "Mechalarm Belt",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Mechanical Belt",
+        "req_ilvl": 70
+      },
+      {
+        "name": "Crystal Belt",
+        "req_ilvl": 73
+      },
+      {
+        "name": "Vanguard Belt",
+        "req_ilvl": 73
+      }
+    ],
+    "Tincture": [
+      {
+        "name": "Ashbark Tincture",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Blood Sap Tincture",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Borealwood Tincture",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Fulgurite Tincture",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Ironwood Tincture",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Oakbranch Tincture",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Poisonberry Tincture",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Rosethorn Tincture",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Prismatic Tincture",
+        "req_ilvl": 18
+      },
+      {
+        "name": "Sporebloom Tincture",
+        "req_ilvl": 52
+      }
+    ],
+    "Jewel": [
+      {
+        "name": "Prismatic Jewel",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Cobalt Jewel",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Crimson Jewel",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Timeless Jewel",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Viridian Jewel",
+        "req_ilvl": 20
+      }
+    ],
+    "Abyss Jewel": [
+      {
+        "name": "Ghastly Eye Jewel",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Hypnotic Eye Jewel",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Murderous Eye Jewel",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Searching Eye Jewel",
+        "req_ilvl": 1
+      }
+    ],
+    "Cluster Jewel": [
+      {
+        "name": "Large Cluster Jewel",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Medium Cluster Jewel",
+        "req_ilvl": 1
+      },
+      {
+        "name": "Small Cluster Jewel",
+        "req_ilvl": 1
+      }
+    ],
+    "Flask": {
+      "Life Flask": [
+        {
+          "name": "Small Life Flask",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Medium Life Flask",
+          "req_ilvl": 3
+        },
+        {
+          "name": "Large Life Flask",
+          "req_ilvl": 6
+        },
+        {
+          "name": "Greater Life Flask",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Grand Life Flask",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Giant Life Flask",
+          "req_ilvl": 24
+        },
+        {
+          "name": "Colossal Life Flask",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Sacred Life Flask",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Hallowed Life Flask",
+          "req_ilvl": 42
+        },
+        {
+          "name": "Sanctified Life Flask",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Divine Life Flask",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Eternal Life Flask",
+          "req_ilvl": 65
+        }
+      ],
+      "Mana Flask": [
+        {
+          "name": "Small Mana Flask",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Medium Mana Flask",
+          "req_ilvl": 3
+        },
+        {
+          "name": "Large Mana Flask",
+          "req_ilvl": 6
+        },
+        {
+          "name": "Greater Mana Flask",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Grand Mana Flask",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Giant Mana Flask",
+          "req_ilvl": 24
+        },
+        {
+          "name": "Colossal Mana Flask",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Sacred Mana Flask",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Hallowed Mana Flask",
+          "req_ilvl": 42
+        },
+        {
+          "name": "Sanctified Mana Flask",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Divine Mana Flask",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Eternal Mana Flask",
+          "req_ilvl": 65
+        }
+      ],
+      "Hybrid Flask": [
+        {
+          "name": "Small Hybrid Flask",
+          "req_ilvl": 10
+        },
+        {
+          "name": "Medium Hybrid Flask",
+          "req_ilvl": 20
+        },
+        {
+          "name": "Large Hybrid Flask",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Colossal Hybrid Flask",
+          "req_ilvl": 40
+        },
+        {
+          "name": "Sacred Hybrid Flask",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Hallowed Hybrid Flask",
+          "req_ilvl": 60
+        }
+      ],
+      "Utility Flask": [
+        {
+          "name": "Quicksilver Flask",
+          "req_ilvl": 4
+        },
+        {
+          "name": "Bismuth Flask",
+          "req_ilvl": 8
+        },
+        {
+          "name": "Amethyst Flask",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Ruby Flask",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Sapphire Flask",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Topaz Flask",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Aquamarine Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Basalt Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Corundum Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Diamond Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Gold Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Granite Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Iron Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Jade Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Quartz Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Silver Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Stibnite Flask",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Sulphur Flask",
+          "req_ilvl": 27
+        }
+      ]
+    }
+  },
+  "WEAPONS": {
+    "1H Melee": {
+      "Daggers": [
+        {
+          "name": "Ethereal Blade",
+          "stats": "DEX/INT",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Glass Shank",
+          "stats": "DEX/INT",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Skinning Knife",
+          "stats": "DEX/INT",
+          "req_ilvl": 5
+        },
+        {
+          "name": "Stiletto",
+          "stats": "DEX/INT",
+          "req_ilvl": 15
+        },
+        {
+          "name": "Flaying Knife",
+          "stats": "DEX/INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Hollowpoint Dagger",
+          "stats": "DEX/INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Prong Dagger",
+          "stats": "DEX/INT",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Poignard",
+          "stats": "DEX/INT",
+          "req_ilvl": 41
+        },
+        {
+          "name": "Pressurised Dagger",
+          "stats": "DEX/INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Trisula",
+          "stats": "DEX/INT",
+          "req_ilvl": 51
+        },
+        {
+          "name": "Gutting Knife",
+          "stats": "DEX/INT",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Ambusher",
+          "stats": "DEX/INT",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Pneumatic Dagger",
+          "stats": "DEX/INT",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Sai",
+          "stats": "DEX/INT",
+          "req_ilvl": 70
+        }
+      ],
+      "Claws": [
+        {
+          "name": "Nailed Fist",
+          "stats": "DEX/INT",
+          "req_ilvl": 3
+        },
+        {
+          "name": "Sharktooth Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 7
+        },
+        {
+          "name": "Awl",
+          "stats": "DEX/INT",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Cat's Paw",
+          "stats": "DEX/INT",
+          "req_ilvl": 17
+        },
+        {
+          "name": "Blinder",
+          "stats": "DEX/INT",
+          "req_ilvl": 22
+        },
+        {
+          "name": "Timeworn Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 26
+        },
+        {
+          "name": "Shadow Fangs",
+          "stats": "DEX/INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Sparkling Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Fright Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 34
+        },
+        {
+          "name": "Double Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Thresher Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 37
+        },
+        {
+          "name": "Gouger",
+          "stats": "DEX/INT",
+          "req_ilvl": 40
+        },
+        {
+          "name": "Tiger's Paw",
+          "stats": "DEX/INT",
+          "req_ilvl": 43
+        },
+        {
+          "name": "Gut Ripper",
+          "stats": "DEX/INT",
+          "req_ilvl": 46
+        },
+        {
+          "name": "Prehistoric Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 49
+        },
+        {
+          "name": "Malign Fangs",
+          "stats": "DEX/INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Noble Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 52
+        },
+        {
+          "name": "Eagle Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Twin Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 57
+        },
+        {
+          "name": "Great White Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Throat Stabber",
+          "stats": "DEX/INT",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Hellion's Paw",
+          "stats": "DEX/INT",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Eye Gouger",
+          "stats": "DEX/INT",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Vaal Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Imperial Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Terror Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Void Fangs",
+          "stats": "DEX/INT",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Gemini Claw",
+          "stats": "DEX/INT",
+          "req_ilvl": 72
+        }
+      ],
+      "One Hand Axes": [
+        {
+          "name": "Rusted Hatchet",
+          "stats": "STR/DEX",
+          "req_ilvl": 2
+        },
+        {
+          "name": "Jade Hatchet",
+          "stats": "STR/DEX",
+          "req_ilvl": 6
+        },
+        {
+          "name": "Boarding Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 11
+        },
+        {
+          "name": "Cleaver",
+          "stats": "STR/DEX",
+          "req_ilvl": 16
+        },
+        {
+          "name": "Broad Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 21
+        },
+        {
+          "name": "Arming Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 25
+        },
+        {
+          "name": "Decorative Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 29
+        },
+        {
+          "name": "Maltreatment Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Spectral Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 33
+        },
+        {
+          "name": "Etched Hatchet",
+          "stats": "STR/DEX",
+          "req_ilvl": 35
+        },
+        {
+          "name": "Jasper Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Tomahawk",
+          "stats": "STR/DEX",
+          "req_ilvl": 39
+        },
+        {
+          "name": "Wrist Chopper",
+          "stats": "STR/DEX",
+          "req_ilvl": 42
+        },
+        {
+          "name": "War Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 45
+        },
+        {
+          "name": "Chest Splitter",
+          "stats": "STR/DEX",
+          "req_ilvl": 48
+        },
+        {
+          "name": "Disapprobation Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Ceremonial Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 51
+        },
+        {
+          "name": "Wraith Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 54
+        },
+        {
+          "name": "Engraved Hatchet",
+          "stats": "STR/DEX",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Karui Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 57
+        },
+        {
+          "name": "Siege Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 59
+        },
+        {
+          "name": "Reaver Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 61
+        },
+        {
+          "name": "Butcher Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 63
+        },
+        {
+          "name": "Vaal Hatchet",
+          "stats": "STR/DEX",
+          "req_ilvl": 65
+        },
+        {
+          "name": "Royal Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 67
+        },
+        {
+          "name": "Infernal Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 69
+        },
+        {
+          "name": "Psychotic Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Runic Hatchet",
+          "stats": "STR/DEX",
+          "req_ilvl": 71
+        }
+      ],
+      "One Hand Swords": [
+        {
+          "name": "Energy Blade",
+          "stats": "NONE",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Golden Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Rusted Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Charan's Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 2
+        },
+        {
+          "name": "Copper Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 5
+        },
+        {
+          "name": "Sabre",
+          "stats": "STR/DEX",
+          "req_ilvl": 10
+        },
+        {
+          "name": "Broad Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 15
+        },
+        {
+          "name": "War Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 20
+        },
+        {
+          "name": "Ancient Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 24
+        },
+        {
+          "name": "Elegant Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 28
+        },
+        {
+          "name": "Fickle Spiritblade",
+          "stats": "STR/DEX",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Dusk Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 32
+        },
+        {
+          "name": "Hook Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 34
+        },
+        {
+          "name": "Variscite Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 35
+        },
+        {
+          "name": "Cutlass",
+          "stats": "STR/DEX",
+          "req_ilvl": 38
+        },
+        {
+          "name": "Baselard",
+          "stats": "STR/DEX",
+          "req_ilvl": 41
+        },
+        {
+          "name": "Battle Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 44
+        },
+        {
+          "name": "Elder Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 47
+        },
+        {
+          "name": "Capricious Spiritblade",
+          "stats": "STR/DEX",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Graceful Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Twilight Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 53
+        },
+        {
+          "name": "Grappler",
+          "stats": "STR/DEX",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Gemstone Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Corsair Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Gladius",
+          "stats": "STR/DEX",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Legion Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Vaal Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Eternal Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Midnight Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Anarchic Spiritblade",
+          "stats": "STR/DEX",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Tiger Hook",
+          "stats": "STR/DEX",
+          "req_ilvl": 70
+        }
+      ],
+      "Thrusting One Hand Swords": [
+        {
+          "name": "Rusted Spike",
+          "stats": "DEX",
+          "req_ilvl": 3
+        },
+        {
+          "name": "Whalebone Rapier",
+          "stats": "DEX",
+          "req_ilvl": 7
+        },
+        {
+          "name": "Battered Foil",
+          "stats": "DEX",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Basket Rapier",
+          "stats": "DEX",
+          "req_ilvl": 17
+        },
+        {
+          "name": "Jagged Foil",
+          "stats": "DEX",
+          "req_ilvl": 22
+        },
+        {
+          "name": "Antique Rapier",
+          "stats": "DEX",
+          "req_ilvl": 26
+        },
+        {
+          "name": "Elegant Foil",
+          "stats": "DEX",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Thorn Rapier",
+          "stats": "DEX",
+          "req_ilvl": 34
+        },
+        {
+          "name": "Smallsword",
+          "stats": "DEX",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Wyrmbone Rapier",
+          "stats": "DEX",
+          "req_ilvl": 37
+        },
+        {
+          "name": "Burnished Foil",
+          "stats": "DEX",
+          "req_ilvl": 40
+        },
+        {
+          "name": "Estoc",
+          "stats": "DEX",
+          "req_ilvl": 43
+        },
+        {
+          "name": "Serrated Foil",
+          "stats": "DEX",
+          "req_ilvl": 46
+        },
+        {
+          "name": "Primeval Rapier",
+          "stats": "DEX",
+          "req_ilvl": 49
+        },
+        {
+          "name": "Fancy Foil",
+          "stats": "DEX",
+          "req_ilvl": 52
+        },
+        {
+          "name": "Apex Rapier",
+          "stats": "DEX",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Courtesan Sword",
+          "stats": "DEX",
+          "req_ilvl": 57
+        },
+        {
+          "name": "Dragonbone Rapier",
+          "stats": "DEX",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Tempered Foil",
+          "stats": "DEX",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Pecoraro",
+          "stats": "DEX",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Spiraled Foil",
+          "stats": "DEX",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Vaal Rapier",
+          "stats": "DEX",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Jewelled Foil",
+          "stats": "DEX",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Harpy Rapier",
+          "stats": "DEX",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Dragoon Sword",
+          "stats": "DEX",
+          "req_ilvl": 72
+        }
+      ],
+      "One Hand Maces": [
+        {
+          "name": "Driftwood Club",
+          "stats": "STR",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Tribal Club",
+          "stats": "STR",
+          "req_ilvl": 5
+        },
+        {
+          "name": "Spiked Club",
+          "stats": "STR",
+          "req_ilvl": 10
+        },
+        {
+          "name": "Stone Hammer",
+          "stats": "STR",
+          "req_ilvl": 15
+        },
+        {
+          "name": "War Hammer",
+          "stats": "STR",
+          "req_ilvl": 20
+        },
+        {
+          "name": "Bladed Mace",
+          "stats": "STR",
+          "req_ilvl": 24
+        },
+        {
+          "name": "Ceremonial Mace",
+          "stats": "STR",
+          "req_ilvl": 28
+        },
+        {
+          "name": "Flare Mace",
+          "stats": "STR",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Dream Mace",
+          "stats": "STR",
+          "req_ilvl": 32
+        },
+        {
+          "name": "Wyrm Mace",
+          "stats": "STR",
+          "req_ilvl": 34
+        },
+        {
+          "name": "Petrified Club",
+          "stats": "STR",
+          "req_ilvl": 35
+        },
+        {
+          "name": "Barbed Club",
+          "stats": "STR",
+          "req_ilvl": 38
+        },
+        {
+          "name": "Rock Breaker",
+          "stats": "STR",
+          "req_ilvl": 41
+        },
+        {
+          "name": "Battle Hammer",
+          "stats": "STR",
+          "req_ilvl": 44
+        },
+        {
+          "name": "Flanged Mace",
+          "stats": "STR",
+          "req_ilvl": 47
+        },
+        {
+          "name": "Crack Mace",
+          "stats": "STR",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Ornate Mace",
+          "stats": "STR",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Phantom Mace",
+          "stats": "STR",
+          "req_ilvl": 53
+        },
+        {
+          "name": "Dragon Mace",
+          "stats": "STR",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Ancestral Club",
+          "stats": "STR",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Tenderizer",
+          "stats": "STR",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Gavel",
+          "stats": "STR",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Legion Hammer",
+          "stats": "STR",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Pernach",
+          "stats": "STR",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Auric Mace",
+          "stats": "STR",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Nightmare Mace",
+          "stats": "STR",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Behemoth Mace",
+          "stats": "STR",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Boom Mace",
+          "stats": "STR",
+          "req_ilvl": 70
+        }
+      ]
+    },
+    "2H Melee": {
+      "Warstaves": [
+        {
+          "name": "Iron Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 13
+        },
+        {
+          "name": "Coiled Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 23
+        },
+        {
+          "name": "Capacity Rod",
+          "stats": "STR/INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Vile Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 33
+        },
+        {
+          "name": "Military Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 41
+        },
+        {
+          "name": "Serpentine Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 49
+        },
+        {
+          "name": "Potentiality Rod",
+          "stats": "STR/INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Foul Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Ezomyte Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Maelström Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Judgement Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Eventuality Rod",
+          "stats": "STR/INT",
+          "req_ilvl": 70
+        }
+      ],
+      "Two Hand Axes": [
+        {
+          "name": "Stone Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 4
+        },
+        {
+          "name": "Jade Chopper",
+          "stats": "STR/DEX",
+          "req_ilvl": 9
+        },
+        {
+          "name": "Woodsplitter",
+          "stats": "STR/DEX",
+          "req_ilvl": 13
+        },
+        {
+          "name": "Poleaxe",
+          "stats": "STR/DEX",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Double Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 23
+        },
+        {
+          "name": "Gilded Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 28
+        },
+        {
+          "name": "Prime Cleaver",
+          "stats": "STR/DEX",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Shadow Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 33
+        },
+        {
+          "name": "Dagger Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Jasper Chopper",
+          "stats": "STR/DEX",
+          "req_ilvl": 37
+        },
+        {
+          "name": "Timber Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 41
+        },
+        {
+          "name": "Headsman Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 45
+        },
+        {
+          "name": "Labrys",
+          "stats": "STR/DEX",
+          "req_ilvl": 49
+        },
+        {
+          "name": "Honed Cleaver",
+          "stats": "STR/DEX",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Noble Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 52
+        },
+        {
+          "name": "Abyssal Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Karui Chopper",
+          "stats": "STR/DEX",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Talon Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 59
+        },
+        {
+          "name": "Sundering Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Ezomyte Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Vaal Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Despot Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Void Axe",
+          "stats": "STR/DEX",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Apex Cleaver",
+          "stats": "STR/DEX",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Fleshripper",
+          "stats": "STR/DEX",
+          "req_ilvl": 70
+        }
+      ],
+      "Two Hand Swords": [
+        {
+          "name": "Energy Blade",
+          "stats": "NONE",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Corroded Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 3
+        },
+        {
+          "name": "Longsword",
+          "stats": "STR/DEX",
+          "req_ilvl": 8
+        },
+        {
+          "name": "Bastard Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Two-Handed Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 17
+        },
+        {
+          "name": "Etched Greatsword",
+          "stats": "STR/DEX",
+          "req_ilvl": 22
+        },
+        {
+          "name": "Ornate Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Rebuking Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Spectral Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 32
+        },
+        {
+          "name": "Curved Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 35
+        },
+        {
+          "name": "Butcher Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Footman Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 40
+        },
+        {
+          "name": "Highland Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 44
+        },
+        {
+          "name": "Engraved Greatsword",
+          "stats": "STR/DEX",
+          "req_ilvl": 48
+        },
+        {
+          "name": "Blasting Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Tiger Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 51
+        },
+        {
+          "name": "Wraith Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 54
+        },
+        {
+          "name": "Lithe Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Headman's Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 57
+        },
+        {
+          "name": "Reaver Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 59
+        },
+        {
+          "name": "Ezomyte Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 61
+        },
+        {
+          "name": "Vaal Greatsword",
+          "stats": "STR/DEX",
+          "req_ilvl": 63
+        },
+        {
+          "name": "Lion Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 65
+        },
+        {
+          "name": "Infernal Sword",
+          "stats": "STR/DEX",
+          "req_ilvl": 67
+        },
+        {
+          "name": "Banishing Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Exquisite Blade",
+          "stats": "STR/DEX",
+          "req_ilvl": 70
+        }
+      ],
+      "Two Hand Maces": [
+        {
+          "name": "Driftwood Maul",
+          "stats": "STR",
+          "req_ilvl": 3
+        },
+        {
+          "name": "Tribal Maul",
+          "stats": "STR",
+          "req_ilvl": 8
+        },
+        {
+          "name": "Mallet",
+          "stats": "STR",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Sledgehammer",
+          "stats": "STR",
+          "req_ilvl": 17
+        },
+        {
+          "name": "Jagged Maul",
+          "stats": "STR",
+          "req_ilvl": 22
+        },
+        {
+          "name": "Brass Maul",
+          "stats": "STR",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Blunt Force Condenser",
+          "stats": "STR",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Fright Maul",
+          "stats": "STR",
+          "req_ilvl": 32
+        },
+        {
+          "name": "Morning Star",
+          "stats": "STR",
+          "req_ilvl": 34
+        },
+        {
+          "name": "Totemic Maul",
+          "stats": "STR",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Great Mallet",
+          "stats": "STR",
+          "req_ilvl": 40
+        },
+        {
+          "name": "Steelhead",
+          "stats": "STR",
+          "req_ilvl": 44
+        },
+        {
+          "name": "Spiny Maul",
+          "stats": "STR",
+          "req_ilvl": 48
+        },
+        {
+          "name": "Crushing Force Magnifier",
+          "stats": "STR",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Plated Maul",
+          "stats": "STR",
+          "req_ilvl": 51
+        },
+        {
+          "name": "Dread Maul",
+          "stats": "STR",
+          "req_ilvl": 54
+        },
+        {
+          "name": "Solar Maul",
+          "stats": "STR",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Karui Maul",
+          "stats": "STR",
+          "req_ilvl": 57
+        },
+        {
+          "name": "Colossus Mallet",
+          "stats": "STR",
+          "req_ilvl": 59
+        },
+        {
+          "name": "Piledriver",
+          "stats": "STR",
+          "req_ilvl": 61
+        },
+        {
+          "name": "Meatgrinder",
+          "stats": "STR",
+          "req_ilvl": 63
+        },
+        {
+          "name": "Imperial Maul",
+          "stats": "STR",
+          "req_ilvl": 65
+        },
+        {
+          "name": "Terror Maul",
+          "stats": "STR",
+          "req_ilvl": 67
+        },
+        {
+          "name": "Coronal Maul",
+          "stats": "STR",
+          "req_ilvl": 69
+        },
+        {
+          "name": "Impact Force Propagator",
+          "stats": "STR",
+          "req_ilvl": 70
+        }
+      ]
+    },
+    "Caster & Ranged": {
+      "Wands": [
+        {
+          "name": "Driftwood Wand",
+          "stats": "INT",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Goat's Horn",
+          "stats": "INT",
+          "req_ilvl": 6
+        },
+        {
+          "name": "Carved Wand",
+          "stats": "INT",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Somatic Wand",
+          "stats": "INT",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Quartz Wand",
+          "stats": "INT",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Calling Wand",
+          "stats": "INT",
+          "req_ilvl": 20
+        },
+        {
+          "name": "Spiraled Wand",
+          "stats": "INT",
+          "req_ilvl": 24
+        },
+        {
+          "name": "Assembler Wand",
+          "stats": "INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Sage Wand",
+          "stats": "INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Pagan Wand",
+          "stats": "INT",
+          "req_ilvl": 34
+        },
+        {
+          "name": "Faun's Horn",
+          "stats": "INT",
+          "req_ilvl": 35
+        },
+        {
+          "name": "Blasting Wand",
+          "stats": "INT",
+          "req_ilvl": 40
+        },
+        {
+          "name": "Engraved Wand",
+          "stats": "INT",
+          "req_ilvl": 40
+        },
+        {
+          "name": "Crystal Wand",
+          "stats": "INT",
+          "req_ilvl": 45
+        },
+        {
+          "name": "Coiled Wand",
+          "stats": "INT",
+          "req_ilvl": 49
+        },
+        {
+          "name": "Congregator Wand",
+          "stats": "INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Convening Wand",
+          "stats": "INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Omen Wand",
+          "stats": "INT",
+          "req_ilvl": 53
+        },
+        {
+          "name": "Heathen Wand",
+          "stats": "INT",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Demon's Horn",
+          "stats": "INT",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Imbued Wand",
+          "stats": "INT",
+          "req_ilvl": 59
+        },
+        {
+          "name": "Kinetic Wand",
+          "stats": "INT",
+          "req_ilvl": 59
+        },
+        {
+          "name": "Opal Wand",
+          "stats": "INT",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Tornado Wand",
+          "stats": "INT",
+          "req_ilvl": 65
+        },
+        {
+          "name": "Prophecy Wand",
+          "stats": "INT",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Accumulator Wand",
+          "stats": "INT",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Profane Wand",
+          "stats": "INT",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Convoking Wand",
+          "stats": "INT",
+          "req_ilvl": 72
+        }
+      ],
+      "Rune Daggers": [
+        {
+          "name": "Carving Knife",
+          "stats": "DEX/INT",
+          "req_ilvl": 10
+        },
+        {
+          "name": "Boot Knife",
+          "stats": "DEX/INT",
+          "req_ilvl": 20
+        },
+        {
+          "name": "Copper Kris",
+          "stats": "DEX/INT",
+          "req_ilvl": 24
+        },
+        {
+          "name": "Skean",
+          "stats": "DEX/INT",
+          "req_ilvl": 28
+        },
+        {
+          "name": "Flickerflame Blade",
+          "stats": "DEX/INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Imp Dagger",
+          "stats": "DEX/INT",
+          "req_ilvl": 32
+        },
+        {
+          "name": "Butcher Knife",
+          "stats": "DEX/INT",
+          "req_ilvl": 38
+        },
+        {
+          "name": "Boot Blade",
+          "stats": "DEX/INT",
+          "req_ilvl": 44
+        },
+        {
+          "name": "Golden Kris",
+          "stats": "DEX/INT",
+          "req_ilvl": 47
+        },
+        {
+          "name": "Flashfire Blade",
+          "stats": "DEX/INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Royal Skean",
+          "stats": "DEX/INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Fiend Dagger",
+          "stats": "DEX/INT",
+          "req_ilvl": 53
+        },
+        {
+          "name": "Slaughter Knife",
+          "stats": "DEX/INT",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Ezomyte Dagger",
+          "stats": "DEX/INT",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Platinum Kris",
+          "stats": "DEX/INT",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Imperial Skean",
+          "stats": "DEX/INT",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Demon Dagger",
+          "stats": "DEX/INT",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Infernal Blade",
+          "stats": "DEX/INT",
+          "req_ilvl": 70
+        }
+      ],
+      "Sceptres": [
+        {
+          "name": "Driftwood Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Darkwood Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 5
+        },
+        {
+          "name": "Bronze Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 10
+        },
+        {
+          "name": "Quartz Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 15
+        },
+        {
+          "name": "Iron Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 20
+        },
+        {
+          "name": "Ochre Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 24
+        },
+        {
+          "name": "Ritual Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 28
+        },
+        {
+          "name": "Oscillating Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Shadow Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 32
+        },
+        {
+          "name": "Grinning Fetish",
+          "stats": "STR/INT",
+          "req_ilvl": 35
+        },
+        {
+          "name": "Horned Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Sekhem",
+          "stats": "STR/INT",
+          "req_ilvl": 38
+        },
+        {
+          "name": "Crystal Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 41
+        },
+        {
+          "name": "Lead Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 44
+        },
+        {
+          "name": "Blood Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 47
+        },
+        {
+          "name": "Royal Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Stabilising Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Abyssal Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 53
+        },
+        {
+          "name": "Stag Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Karui Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Tyrant's Sekhem",
+          "stats": "STR/INT",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Opal Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Platinum Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Vaal Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Carnal Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Void Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Alternating Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Sambar Sceptre",
+          "stats": "STR/INT",
+          "req_ilvl": 70
+        }
+      ],
+      "Bows": [
+        {
+          "name": "Crude Bow",
+          "stats": "DEX",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Ethereal Bow",
+          "stats": "DEX",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Short Bow",
+          "stats": "DEX",
+          "req_ilvl": 5
+        },
+        {
+          "name": "Long Bow",
+          "stats": "DEX",
+          "req_ilvl": 9
+        },
+        {
+          "name": "Composite Bow",
+          "stats": "DEX",
+          "req_ilvl": 14
+        },
+        {
+          "name": "Recurve Bow",
+          "stats": "DEX",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Bone Bow",
+          "stats": "DEX",
+          "req_ilvl": 23
+        },
+        {
+          "name": "Royal Bow",
+          "stats": "DEX",
+          "req_ilvl": 28
+        },
+        {
+          "name": "Hedron Bow",
+          "stats": "DEX",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Death Bow",
+          "stats": "DEX",
+          "req_ilvl": 32
+        },
+        {
+          "name": "Grove Bow",
+          "stats": "DEX",
+          "req_ilvl": 35
+        },
+        {
+          "name": "Reflex Bow",
+          "stats": "DEX",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Decurve Bow",
+          "stats": "DEX",
+          "req_ilvl": 38
+        },
+        {
+          "name": "Compound Bow",
+          "stats": "DEX",
+          "req_ilvl": 41
+        },
+        {
+          "name": "Sniper Bow",
+          "stats": "DEX",
+          "req_ilvl": 44
+        },
+        {
+          "name": "Ivory Bow",
+          "stats": "DEX",
+          "req_ilvl": 47
+        },
+        {
+          "name": "Foundry Bow",
+          "stats": "DEX",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Highborn Bow",
+          "stats": "DEX",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Decimation Bow",
+          "stats": "DEX",
+          "req_ilvl": 53
+        },
+        {
+          "name": "Thicket Bow",
+          "stats": "DEX",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Steelwood Bow",
+          "stats": "DEX",
+          "req_ilvl": 57
+        },
+        {
+          "name": "Citadel Bow",
+          "stats": "DEX",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Ranger Bow",
+          "stats": "DEX",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Assassin Bow",
+          "stats": "DEX",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Spine Bow",
+          "stats": "DEX",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Imperial Bow",
+          "stats": "DEX",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Harbinger Bow",
+          "stats": "DEX",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Solarine Bow",
+          "stats": "DEX",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Maraketh Bow",
+          "stats": "DEX",
+          "req_ilvl": 71
+        }
+      ],
+      "Staves": [
+        {
+          "name": "Gnarled Branch",
+          "stats": "STR/INT",
+          "req_ilvl": 4
+        },
+        {
+          "name": "Primitive Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 9
+        },
+        {
+          "name": "Long Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 18
+        },
+        {
+          "name": "Royal Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 28
+        },
+        {
+          "name": "Transformer Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Crescent Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 36
+        },
+        {
+          "name": "Woodful Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 37
+        },
+        {
+          "name": "Quarterstaff",
+          "stats": "STR/INT",
+          "req_ilvl": 45
+        },
+        {
+          "name": "Reciprocation Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Highborn Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 52
+        },
+        {
+          "name": "Moon Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 57
+        },
+        {
+          "name": "Primordial Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Lathi",
+          "stats": "STR/INT",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Imperial Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Battery Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Eclipse Staff",
+          "stats": "STR/INT",
+          "req_ilvl": 70
+        }
+      ]
+    }
+  },
+  "OFF_HAND": {
+    "Shields": {
+      "Tower Shield (STR)": [
+        {
+          "name": "Splintered Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 1
+        },
+        {
+          "name": "Corroded Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 5
+        },
+        {
+          "name": "Rawhide Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 11
+        },
+        {
+          "name": "Cedar Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 17
+        },
+        {
+          "name": "Copper Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 24
+        },
+        {
+          "name": "Exothermic Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Reinforced Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Painted Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 35
+        },
+        {
+          "name": "Buckskin Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 39
+        },
+        {
+          "name": "Mahogany Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 43
+        },
+        {
+          "name": "Bronze Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 47
+        },
+        {
+          "name": "Magmatic Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Girded Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 51
+        },
+        {
+          "name": "Crested Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Shagreen Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Ebony Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 61
+        },
+        {
+          "name": "Ezomyte Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 64
+        },
+        {
+          "name": "Colossal Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 67
+        },
+        {
+          "name": "Heat-attuned Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 70
+        },
+        {
+          "name": "Pinnacle Tower Shield",
+          "stats": "STR",
+          "req_ilvl": 70
+        }
+      ],
+      "Buckler (DEX)": [
+        {
+          "name": "Goathide Buckler",
+          "stats": "DEX",
+          "req_ilvl": 2
+        },
+        {
+          "name": "Pine Buckler",
+          "stats": "DEX",
+          "req_ilvl": 8
+        },
+        {
+          "name": "Painted Buckler",
+          "stats": "DEX",
+          "req_ilvl": 16
+        },
+        {
+          "name": "Hammered Buckler",
+          "stats": "DEX",
+          "req_ilvl": 23
+        },
+        {
+          "name": "War Buckler",
+          "stats": "DEX",
+          "req_ilvl": 29
+        },
+        {
+          "name": "Endothermic Buckler",
+          "stats": "DEX",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Gilded Buckler",
+          "stats": "DEX",
+          "req_ilvl": 34
+        },
+        {
+          "name": "Oak Buckler",
+          "stats": "DEX",
+          "req_ilvl": 38
+        },
+        {
+          "name": "Enameled Buckler",
+          "stats": "DEX",
+          "req_ilvl": 42
+        },
+        {
+          "name": "Corrugated Buckler",
+          "stats": "DEX",
+          "req_ilvl": 46
+        },
+        {
+          "name": "Battle Buckler",
+          "stats": "DEX",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Polar Buckler",
+          "stats": "DEX",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Golden Buckler",
+          "stats": "DEX",
+          "req_ilvl": 54
+        },
+        {
+          "name": "Ironwood Buckler",
+          "stats": "DEX",
+          "req_ilvl": 57
+        },
+        {
+          "name": "Lacquered Buckler",
+          "stats": "DEX",
+          "req_ilvl": 60
+        },
+        {
+          "name": "Vaal Buckler",
+          "stats": "DEX",
+          "req_ilvl": 63
+        },
+        {
+          "name": "Crusader Buckler",
+          "stats": "DEX",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Imperial Buckler",
+          "stats": "DEX",
+          "req_ilvl": 69
+        },
+        {
+          "name": "Cold-attuned Buckler",
+          "stats": "DEX",
+          "req_ilvl": 70
+        }
+      ],
+      "Spirit Shield (INT)": [
+        {
+          "name": "Twig Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 3
+        },
+        {
+          "name": "Yew Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 9
+        },
+        {
+          "name": "Bone Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 15
+        },
+        {
+          "name": "Golden Flame",
+          "stats": "NONE",
+          "req_ilvl": 15
+        },
+        {
+          "name": "Tarnished Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 23
+        },
+        {
+          "name": "Jingling Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 28
+        },
+        {
+          "name": "Exhausting Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 30
+        },
+        {
+          "name": "Brass Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 33
+        },
+        {
+          "name": "Walnut Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 37
+        },
+        {
+          "name": "Ivory Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 41
+        },
+        {
+          "name": "Ancient Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 45
+        },
+        {
+          "name": "Chiming Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 49
+        },
+        {
+          "name": "Subsuming Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Thorium Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 53
+        },
+        {
+          "name": "Lacewood Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 56
+        },
+        {
+          "name": "Fossilised Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 59
+        },
+        {
+          "name": "Vaal Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Harmonic Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 65
+        },
+        {
+          "name": "Titanium Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 68
+        },
+        {
+          "name": "Transfer-attuned Spirit Shield",
+          "stats": "INT",
+          "req_ilvl": 70
+        }
+      ],
+      "Round Shield (STR/DEX)": [
+        {
+          "name": "Rotted Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 5
+        },
+        {
+          "name": "Fir Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Studded Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 20
+        },
+        {
+          "name": "Scarlet Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Splendid Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 33
+        },
+        {
+          "name": "Maple Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 39
+        },
+        {
+          "name": "Spiked Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 45
+        },
+        {
+          "name": "Crimson Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 49
+        },
+        {
+          "name": "Baroque Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 54
+        },
+        {
+          "name": "Teak Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Spiny Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Cardinal Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Elegant Round Shield",
+          "stats": "STR/DEX",
+          "req_ilvl": 70
+        }
+      ],
+      "Kite Shield (STR/INT)": [
+        {
+          "name": "Plank Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 7
+        },
+        {
+          "name": "Linden Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 13
+        },
+        {
+          "name": "Reinforced Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 20
+        },
+        {
+          "name": "Layered Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Ceremonial Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 34
+        },
+        {
+          "name": "Etched Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 40
+        },
+        {
+          "name": "Steel Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 46
+        },
+        {
+          "name": "Laminated Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 50
+        },
+        {
+          "name": "Angelic Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 55
+        },
+        {
+          "name": "Branded Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 59
+        },
+        {
+          "name": "Champion Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Mosaic Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 65
+        },
+        {
+          "name": "Archon Kite Shield",
+          "stats": "STR/INT",
+          "req_ilvl": 68
+        }
+      ],
+      "Spiked Shield (DEX/INT)": [
+        {
+          "name": "Spiked Bundle",
+          "stats": "DEX/INT",
+          "req_ilvl": 5
+        },
+        {
+          "name": "Driftwood Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 12
+        },
+        {
+          "name": "Alloyed Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 20
+        },
+        {
+          "name": "Burnished Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 27
+        },
+        {
+          "name": "Ornate Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 33
+        },
+        {
+          "name": "Redwood Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 39
+        },
+        {
+          "name": "Compound Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 45
+        },
+        {
+          "name": "Polished Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 49
+        },
+        {
+          "name": "Sovereign Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 54
+        },
+        {
+          "name": "Alder Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 58
+        },
+        {
+          "name": "Ezomyte Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 62
+        },
+        {
+          "name": "Mirrored Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 66
+        },
+        {
+          "name": "Supreme Spiked Shield",
+          "stats": "DEX/INT",
+          "req_ilvl": 70
+        }
+      ]
+    },
+    "Quivers": [
+      {
+        "name": "Conductive Quiver",
+        "req_ilvl": 2
+      },
+      {
+        "name": "Cured Quiver",
+        "req_ilvl": 2
+      },
+      {
+        "name": "Rugged Quiver",
+        "req_ilvl": 2
+      },
+      {
+        "name": "Serrated Arrow Quiver",
+        "req_ilvl": 5
+      },
+      {
+        "name": "Two-Point Arrow Quiver",
+        "req_ilvl": 5
+      },
+      {
+        "name": "Heavy Quiver",
+        "req_ilvl": 7
+      },
+      {
+        "name": "Sharktooth Arrow Quiver",
+        "req_ilvl": 10
+      },
+      {
+        "name": "Light Quiver",
+        "req_ilvl": 15
+      },
+      {
+        "name": "Blunt Arrow Quiver",
+        "req_ilvl": 16
+      },
+      {
+        "name": "Feathered Arrow Quiver",
+        "req_ilvl": 20
+      },
+      {
+        "name": "Fire Arrow Quiver",
+        "req_ilvl": 22
+      },
+      {
+        "name": "Broadhead Arrow Quiver",
+        "req_ilvl": 28
+      },
+      {
+        "name": "Penetrating Arrow Quiver",
+        "req_ilvl": 36
+      },
+      {
+        "name": "Blazing Arrow Quiver",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Ornate Quiver",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Spike-Point Arrow Quiver",
+        "req_ilvl": 45
+      },
+      {
+        "name": "Vile Arrow Quiver",
+        "req_ilvl": 55
+      },
+      {
+        "name": "Heavy Arrow Quiver",
+        "req_ilvl": 61
+      },
+      {
+        "name": "Primal Arrow Quiver",
+        "req_ilvl": 66
+      },
+      {
+        "name": "Artillery Quiver",
+        "req_ilvl": 74
+      }
+    ]
+  },
+  "META": {
+    "STAT_ATTRIBUTES": {
+      "STR": "Strength",
+      "DEX": "Dexterity",
+      "INT": "Intelligence",
+      "STR/DEX": "Strength/Dexterity",
+      "STR/INT": "Strength/Intelligence",
+      "DEX/INT": "Dexterity/Intelligence",
+      "STR/DEX/INT": "All Attributes",
+      "WARD": "Ward",
+      "NONE": "No Requirements"
+    },
+    "SLOT_ATTRIBUTES": {
+      "Helmet": [
+        "STR",
+        "DEX",
+        "INT",
+        "STR/DEX",
+        "DEX/INT",
+        "STR/INT",
+        "NONE",
+        "STR/DEX/INT"
+      ],
+      "Body Armour": [
+        "STR",
+        "DEX",
+        "INT",
+        "STR/INT",
+        "DEX/INT",
+        "STR/DEX",
+        "STR/DEX/INT"
+      ],
+      "Gloves": [
+        "STR",
+        "DEX",
+        "INT",
+        "STR/DEX",
+        "DEX/INT",
+        "STR/INT",
+        "NONE",
+        "STR/DEX/INT"
+      ],
+      "Boots": [
+        "NONE",
+        "STR",
+        "DEX",
+        "INT",
+        "STR/INT",
+        "STR/DEX",
+        "DEX/INT",
+        "STR/DEX/INT"
+      ],
+      "Off-hand": [
+        "STR",
+        "DEX",
+        "INT",
+        "NONE",
+        "STR/DEX",
+        "STR/INT",
+        "DEX/INT"
+      ]
+    },
+    "SLOTS_NO_ATTRIBUTE": [
+      "Ring",
+      "Amulet",
+      "Belt",
+      "Flask",
+      "Tincture",
+      "Jewel",
+      "Abyss Jewel",
+      "Cluster Jewel",
+      "Quiver"
+    ],
+    "SLOTS_WEAPON_TYPE": [
+      "Main Hand",
+      "Off-hand"
+    ]
+  }
+}
